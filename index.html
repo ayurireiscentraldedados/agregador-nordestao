@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Agregador O POVO+ | Cesta Básica</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary: #b91c1c;       /* Vermelho Editorial O POVO */
+            --primary-hover: #991b1b;
+            --success: #16a34a;       /* Verde Economia */
+            --success-hover: #15803d;
+            --bg: #f3f4f6;
+            --card: #ffffff;
+            --text-main: #1f2937;
+            --text-muted: #6b7280;
+            --border: #e5e7eb;
+            --shadow-sm: 0 1px 2px 0 rgba(0,0,0,0.05);
+            --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.1);
+            --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1);
+            --shadow-top: 0 -4px 6px -1px rgba(0,0,0,0.1); /* Para a gaveta mobile */
+            --radius: 12px;
+        }
+
+        body { font-family: 'Inter', sans-serif; background-color: var(--bg); color: var(--text-main); margin: 0; padding: 20px 20px 80px 20px; -webkit-font-smoothing: antialiased; }
+
+        .header { text-align: center; margin-bottom: 30px; padding-top: 10px;}
+        .header h2 { font-size: 2.2rem; margin: 0 0 10px 0; color: var(--primary); letter-spacing: -1px; font-weight: 800;}
+        .header p { color: var(--text-muted); font-size: 1.1rem; margin: 0;}
+        
+        .seletor-regiao { margin: 25px auto; max-width: 350px; }
+        .seletor-regiao select { width: 100%; padding: 14px; font-size: 1rem; border: 2px solid var(--border); border-radius: 8px; cursor: pointer; font-weight: 600; color: var(--text-main); background-color: var(--card); transition: all 0.2s ease; outline: none; box-shadow: var(--shadow-sm); }
+        .seletor-regiao select:focus { border-color: var(--primary); }
+
+        .loja-container { display: flex; gap: 30px; max-width: 1200px; margin: 0 auto; align-items: flex-start; }
+        
+        /* Vitrine com Imagens Reais */
+        .vitrine { flex: 2; display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px; }
+        .produto-card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; text-align: center; cursor: pointer; box-shadow: var(--shadow-sm); transition: all 0.3s ease; position: relative; }
+        .produto-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); border-color: #d1d5db; }
+        
+        /* Container da Imagem do Produto */
+        .img-container { height: 100px; display: flex; align-items: center; justify-content: center; margin-bottom: 15px; }
+        .img-container img { max-height: 100%; max-width: 100%; object-fit: contain; }
+        .img-container .fallback-emoji { font-size: 4rem; }
+
+        .produto-card h3 { font-size: 1.05rem; margin: 0 0 8px 0; font-weight: 600; color: var(--text-main); }
+        .melhor-preco { font-size: 1.4rem; font-weight: 800; color: var(--primary); margin-bottom: 4px; }
+        .melhor-mercado { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 15px; min-height: 35px; }
+        .btn-ver-ofertas { background-color: #f3f4f6; color: var(--text-main); border: none; padding: 10px; border-radius: 6px; width: 100%; font-weight: 600; pointer-events: none; transition: all 0.2s; }
+        .produto-card:hover .btn-ver-ofertas { background-color: var(--primary); color: white; }
+
+        /* Carrinho Lateral */
+        .carrinho { flex: 1; background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 25px; position: sticky; top: 20px; min-width: 320px; box-shadow: var(--shadow-md); transition: transform 0.3s ease-in-out; }
+        .carrinho-header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border); padding-bottom: 15px; margin-bottom: 20px;}
+        .carrinho-header h2 { margin: 0; font-size: 1.3rem; color: var(--text-main); }
+        .btn-limpar { font-size: 0.85rem; padding: 6px 12px; background: #fee2e2; color: #991b1b; border: none; border-radius: 6px; cursor: pointer; font-weight: 600; }
+
+        /* Selo de Economia Real */
+        .selo-economia { background: #ecfdf5; border: 1px dashed var(--success); color: var(--success-hover); padding: 10px; border-radius: 6px; text-align: center; font-size: 0.9rem; font-weight: 700; margin-bottom: 20px; display: none; }
+
+        .btn-magico { background-color: var(--success); color: white; border: none; padding: 14px; border-radius: 8px; width: 100%; font-weight: 700; font-size: 1rem; margin-bottom: 20px; cursor: pointer; box-shadow: 0 4px 6px rgba(22, 163, 74, 0.2); }
+        
+        .itens-carrinho { min-height: 100px; max-height: 350px; overflow-y: auto; margin-bottom: 20px; padding-right: 5px; }
+        .itens-carrinho::-webkit-scrollbar { width: 4px; }
+        .itens-carrinho::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 10px; }
+
+        .item-lista { border-bottom: 1px solid var(--bg); padding: 12px 0; }
+        .item-lista-topo { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;}
+        .item-lista-topo strong { font-size: 0.95rem; }
+        .item-preco-total { color: var(--text-main); font-weight: 700; font-size: 1.05rem;}
+        .item-mercado { font-size: 0.8rem; color: var(--text-muted); display: block; margin-bottom: 8px;}
+        .controles-qtd { display: flex; align-items: center; gap: 12px; background: var(--bg); padding: 4px; border-radius: 20px; width: max-content;}
+        .controles-qtd button { background: white; border: 1px solid var(--border); border-radius: 50%; width: 28px; height: 28px; cursor: pointer; font-weight: bold; }
+        
+        .total-container { border-top: 2px dashed var(--border); padding-top: 20px; display: flex; justify-content: space-between; align-items: center; font-size: 1.1rem; color: var(--text-muted); }
+        .total-valor { font-size: 1.8rem; font-weight: 800; color: var(--text-main); }
+
+        /* Botão Flutuante Mobile (Gaveta) */
+        .mobile-cart-toggle { display: none; position: fixed; bottom: 0; left: 0; width: 100%; background: var(--card); padding: 15px 20px; box-shadow: var(--shadow-top); z-index: 999; border-top: 1px solid var(--border); box-sizing: border-box; justify-content: space-between; align-items: center; cursor: pointer;}
+        .mobile-cart-toggle .resumo { display: flex; flex-direction: column; }
+        .mobile-cart-toggle .lbl { font-size: 0.8rem; color: var(--text-muted); font-weight: 600;}
+        .mobile-cart-toggle .val { font-size: 1.4rem; font-weight: 800; color: var(--primary);}
+        .mobile-cart-toggle .btn-abrir { background: var(--primary); color: white; padding: 10px 20px; border-radius: 8px; font-weight: bold; border: none;}
+
+        /* MODAL E TOASTS */
+        .modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(17, 24, 39, 0.7); display: none; justify-content: center; align-items: center; z-index: 2000; backdrop-filter: blur(4px); }
+        .modal-content { background: var(--card); width: 90%; max-width: 450px; border-radius: var(--radius); padding: 25px; box-shadow: var(--shadow-lg); max-height: 85vh; display: flex; flex-direction: column; }
+        .modal-header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border); padding-bottom: 15px; margin-bottom: 20px; }
+        .modal-header h3 { margin: 0; font-size: 1.3rem; display: flex; align-items: center; gap: 10px;}
+        .fechar-modal { background: none; border: none; font-size: 1.8rem; cursor: pointer; color: var(--text-muted); }
+        .lista-ofertas { overflow-y: auto; flex-grow: 1; padding-right: 5px;}
+        .oferta-item { display: flex; justify-content: space-between; align-items: center; padding: 15px; border: 1px solid var(--border); border-radius: 8px; margin-bottom: 12px; background: #fafafa; }
+        .oferta-item.destaque { border-color: var(--success); background: #f0fdf4; border-width: 2px;}
+        .oferta-info strong { display: block; font-size: 1rem; color: var(--text-main); margin-bottom: 4px;}
+        .oferta-info span { color: var(--success); font-weight: 700; font-size: 1.15rem; }
+        .btn-add-oferta { background: var(--card); color: var(--primary); border: 2px solid var(--primary); padding: 8px 16px; border-radius: 6px; cursor: pointer; font-weight: 700; }
+        
+        .toast-container { position: fixed; top: 20px; right: 20px; z-index: 9999; display: flex; flex-direction: column; gap: 10px; }
+        .toast { background: var(--text-main); color: white; padding: 12px 20px; border-radius: 8px; box-shadow: var(--shadow-lg); font-weight: 600; font-size: 0.95rem; }
+
+        /* Media Queries para Mobile (Gaveta) */
+        @media (max-width: 800px) {
+            .loja-container { flex-direction: column; }
+            .mobile-cart-toggle { display: flex; }
+            
+            .carrinho { 
+                position: fixed; bottom: -100%; left: 0; width: 100%; height: 85vh; 
+                border-radius: 20px 20px 0 0; z-index: 1500; box-sizing: border-box; 
+                margin: 0; box-shadow: 0 -10px 25px rgba(0,0,0,0.2); 
+            }
+            .carrinho.gaveta-aberta { bottom: 0; }
+            
+            .fechar-gaveta { display: block !important; text-align: center; padding-bottom: 10px; color: var(--text-muted); font-weight: bold; border-bottom: 1px solid var(--border); margin-bottom: 15px;}
+        }
+        .fechar-gaveta { display: none; }
+
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h2>Agregador de Preços</h2>
+        <p>Monte a sua cesta básica com os dados da Central de Dados O POVO+</p>
+        <div class="seletor-regiao">
+            <select id="selectCidade">
+                <option value="fortaleza">📍 Fortaleza (CE)</option>
+                <option value="natal">📍 Natal (RN)</option>
+                <option value="joaopessoa">📍 João Pessoa (PB)</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="loja-container">
+        <div class="vitrine" id="vitrineProdutos"></div>
+
+        <div class="carrinho" id="carrinhoContainer">
+            <div class="fechar-gaveta" onclick="toggleGaveta()">⬇ Deslize para fechar ⬇</div>
+            
+            <div class="carrinho-header">
+                <h2>Meu Carrinho</h2>
+                <button class="btn-limpar" onclick="limparCarrinho()">Esvaziar</button>
+            </div>
+
+            <div class="selo-economia" id="seloEconomia">
+                📉 Você evitou gastar R$ 0,00!
+            </div>
+
+            <button class="btn-magico" onclick="montarCestaIdeal()">
+                ✨ Auto-Preencher (Mais Barato)
+            </button>
+
+            <div class="itens-carrinho" id="listaCarrinho"></div>
+            
+            <div class="total-container">
+                <span>Total Estimado:</span>
+                <span class="total-valor" id="valorTotal">R$ 0,00</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile-cart-toggle" id="btnToggleMobile" onclick="toggleGaveta()">
+        <div class="resumo">
+            <span class="lbl">Valor da Feira</span>
+            <span class="val" id="valorTotalMobile">R$ 0,00</span>
+        </div>
+        <button class="btn-abrir">Ver Carrinho</button>
+    </div>
+
+    <div class="modal-overlay" id="modalOfertas" onclick="fecharModal(event)">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <div class="modal-header">
+                <h3 id="modalTitulo">Produto</h3>
+                <button class="fechar-modal" onclick="document.getElementById('modalOfertas').style.display='none'">&times;</button>
+            </div>
+            <div class="lista-ofertas" id="modalListaOfertas"></div>
+        </div>
+    </div>
+
+    <div class="toast-container" id="toastContainer"></div>
+
+    <script>
+        const bancoDeImagens = {
+            'Arroz (kg)': 'https://cdn-icons-png.flaticon.com/128/3124/3124082.png',
+            'Feijão (kg)': 'https://cdn-icons-png.flaticon.com/128/7342/7342417.png',
+            'Carne (Coxão Mole) (kg)': 'https://cdn-icons-png.flaticon.com/128/3143/3143645.png',
+            'Carne (Coxão Duro) (kg)': 'https://cdn-icons-png.flaticon.com/128/3143/3143645.png',
+            'Leite (L)': 'https://cdn-icons-png.flaticon.com/128/869/869550.png',
+            'Pão Francês (kg)': 'https://cdn-icons-png.flaticon.com/128/3014/3014515.png',
+            'Tomate (kg)': 'https://cdn-icons-png.flaticon.com/128/1202/1202125.png',
+            'Café (250g)': 'https://cdn-icons-png.flaticon.com/128/1047/1047462.png',
+            'Açúcar (kg)': 'https://cdn-icons-png.flaticon.com/128/5502/5502157.png',
+            'Farinha (kg)': 'https://cdn-icons-png.flaticon.com/128/2224/2224345.png',
+            'Óleo de Soja (900ml)': 'https://cdn-icons-png.flaticon.com/128/3004/3004543.png',
+            'Banana (kg)': 'https://cdn-icons-png.flaticon.com/128/2909/2909761.png',
+            'Manteiga': 'https://cdn-icons-png.flaticon.com/128/6265/6265555.png'
+        };
+
+        let dbCompleto = {};      
+        let catalogoAtual = [];   
+        let carrinho = {};        
+
+        const formatarMoeda = (valor) => valor.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+
+        function mostrarToast(mensagem) {
+            const container = document.getElementById('toastContainer');
+            const toast = document.createElement('div');
+            toast.className = 'toast';
+            toast.innerHTML = `✅ ${mensagem}`;
+            container.appendChild(toast);
+            setTimeout(() => { toast.remove(); }, 3000);
+        }
+
+        function toggleGaveta() {
+            document.getElementById('carrinhoContainer').classList.toggle('gaveta-aberta');
+        }
+
+        fetch('catalogo.json')
+            .then(res => res.json())
+            .then(dados => { dbCompleto = dados; aoMudarCidade(); })
+            .catch(err => { document.getElementById('vitrineProdutos').innerHTML = `<p style="text-align:center;">Erro ao carregar os dados.</p>`; });
+
+        document.getElementById('selectCidade').addEventListener('change', aoMudarCidade);
+
+        function aoMudarCidade() {
+            catalogoAtual = dbCompleto[document.getElementById('selectCidade').value] || [];
+            limparCarrinho();
+            renderizarVitrine();
+        }
+
+        function renderizarVitrine() {
+            const elVitrine = document.getElementById('vitrineProdutos');
+            elVitrine.innerHTML = ''; 
+
+            if(catalogoAtual.length === 0) return;
+
+            catalogoAtual.forEach(produto => {
+                const melhorOferta = produto.ofertas[0]; 
+                
+                const imagemExibida = bancoDeImagens[produto.nome] 
+                    ? `<img src="${bancoDeImagens[produto.nome]}" alt="${produto.nome}">` 
+                    : `<span class="fallback-emoji">${produto.imagem}</span>`;
+
+                const card = document.createElement('div');
+                card.className = 'produto-card';
+                card.onclick = () => abrirModalOfertas(produto.id);
+                
+                card.innerHTML = `
+                    <div class="img-container">${imagemExibida}</div>
+                    <h3>${produto.nome}</h3>
+                    <div class="melhor-preco">${formatarMoeda(melhorOferta.preco)}</div>
+                    <div class="melhor-mercado">A partir de:<br><strong>${melhorOferta.mercado}</strong></div>
+                    <button class="btn-ver-ofertas">Comparar Preços</button>
+                `;
+                elVitrine.appendChild(card);
+            });
+        }
+
+        function abrirModalOfertas(idProduto) {
+            const produto = catalogoAtual.find(p => p.id === idProduto);
+            document.getElementById('modalTitulo').innerHTML = `Preços: ${produto.nome}`;
+            const listaDiv = document.getElementById('modalListaOfertas');
+            listaDiv.innerHTML = '';
+
+            produto.ofertas.forEach((oferta, index) => {
+                const item = document.createElement('div');
+                item.className = `oferta-item ${index === 0 ? 'destaque' : ''}`;
+                item.innerHTML = `
+                    <div class="oferta-info">
+                        <strong>${oferta.mercado} ${index === 0 ? '🏆' : ''}</strong>
+                        <span>${formatarMoeda(oferta.preco)}</span>
+                    </div>
+                    <button class="btn-add-oferta" onclick="addCarrinho('${produto.id}', '${oferta.mercado}', ${oferta.preco}, '${produto.nome}')">
+                        Adicionar
+                    </button>
+                `;
+                listaDiv.appendChild(item);
+            });
+            document.getElementById('modalOfertas').style.display = 'flex';
+        }
+
+        function fecharModal(event) {
+            if(event.target.id === 'modalOfertas') document.getElementById('modalOfertas').style.display = 'none';
+        }
+
+        function montarCestaIdeal() {
+            carrinho = {};
+            catalogoAtual.forEach(produto => {
+                if(produto.ofertas && produto.ofertas.length > 0) {
+                    addCarrinhoSilencioso(produto.id, produto.ofertas[0].mercado, produto.ofertas[0].preco, produto.nome);
+                }
+            });
+            atualizarCarrinhoVisual();
+            mostrarToast("Cesta mais barata montada!");
+        }
+
+        function addCarrinhoSilencioso(idProduto, mercado, preco, nomeProduto) {
+            const chaveUnica = `${idProduto}|${mercado}`; 
+            if (carrinho[chaveUnica]) carrinho[chaveUnica].quantidade++;
+            else carrinho[chaveUnica] = { idOriginal: idProduto, nome: nomeProduto, mercado: mercado, preco: preco, quantidade: 1 };
+        }
+
+        function addCarrinho(idProduto, mercado, preco, nomeProduto) {
+            addCarrinhoSilencioso(idProduto, mercado, preco, nomeProduto);
+            document.getElementById('modalOfertas').style.display = 'none';
+            atualizarCarrinhoVisual();
+        }
+
+        function removeCarrinho(chaveUnica) {
+            if (carrinho[chaveUnica]) {
+                carrinho[chaveUnica].quantidade--;
+                if (carrinho[chaveUnica].quantidade <= 0) delete carrinho[chaveUnica];
+            }
+            atualizarCarrinhoVisual();
+        }
+
+        function limparCarrinho() {
+            carrinho = {};
+            atualizarCarrinhoVisual();
+        }
+
+        function atualizarCarrinhoVisual() {
+            const lista = document.getElementById('listaCarrinho');
+            const elTotal = document.getElementById('valorTotal');
+            const elTotalMobile = document.getElementById('valorTotalMobile');
+            const elSeloEconomia = document.getElementById('seloEconomia');
+            
+            lista.innerHTML = '';
+            let totalSoma = 0;
+            let totalPiorCenario = 0; 
+
+            const chaves = Object.keys(carrinho);
+
+            if (chaves.length === 0) {
+                lista.innerHTML = `<p style="text-align: center; color: #9ca3af; margin-top: 20px;">Sua cesta está vazia.</p>`;
+                elSeloEconomia.style.display = 'none';
+            } else {
+                chaves.forEach(chave => {
+                    const item = carrinho[chave];
+                    const subtotal = item.preco * item.quantidade;
+                    totalSoma += subtotal;
+
+                    const produtoOriginal = catalogoAtual.find(p => p.id === item.idOriginal);
+                    if(produtoOriginal && produtoOriginal.ofertas) {
+                        const precoMaisCaro = produtoOriginal.ofertas[produtoOriginal.ofertas.length - 1].preco;
+                        totalPiorCenario += (precoMaisCaro * item.quantidade);
+                    }
+
+                    const itemDiv = document.createElement('div');
+                    itemDiv.className = 'item-lista';
+                    itemDiv.innerHTML = `
+                        <div class="item-lista-topo">
+                            <strong>${item.nome}</strong>
+                            <span class="item-preco-total">${formatarMoeda(subtotal)}</span>
+                        </div>
+                        <span class="item-mercado">📍 ${item.mercado}</span>
+                        <div class="controles-qtd">
+                            <button onclick="removeCarrinho('${chave}')">-</button>
+                            <span>${item.quantidade}</span>
+                            <button onclick="addCarrinho('${item.idOriginal}', '${item.mercado}', ${item.preco}, '${item.nome}')">+</button>
+                        </div>
+                    `;
+                    lista.appendChild(itemDiv);
+                });
+
+                const economiaFeita = totalPiorCenario - totalSoma;
+                if(economiaFeita > 0) {
+                    elSeloEconomia.innerHTML = `📉 Você evitou gastar <strong>${formatarMoeda(economiaFeita)}</strong>!`;
+                    elSeloEconomia.style.display = 'block';
+                } else {
+                    elSeloEconomia.style.display = 'none';
+                }
+            }
+
+            const valorFormatado = formatarMoeda(totalSoma);
+            elTotal.textContent = valorFormatado;
+            elTotalMobile.textContent = valorFormatado;
+        }
+    </script>
+</body>
+</html>

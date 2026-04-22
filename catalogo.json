@@ -1,0 +1,3345 @@
+{
+    "fortaleza": [
+        {
+            "id": "açúcar_kg",
+            "nome": "Açúcar (kg)",
+            "imagem": "🧂",
+            "ofertas": [
+                {
+                    "mercado": "Novo Cordeiro Supermercados",
+                    "preco": 2.99
+                },
+                {
+                    "mercado": "Ofertasso Supermercados -",
+                    "preco": 3.19
+                },
+                {
+                    "mercado": "Araripe Supermercado",
+                    "preco": 3.19
+                },
+                {
+                    "mercado": "Mercadão São Francisco",
+                    "preco": 3.19
+                },
+                {
+                    "mercado": "Supermercado Max Rede",
+                    "preco": 3.19
+                },
+                {
+                    "mercado": "Supermercado Brasileiro",
+                    "preco": 3.29
+                },
+                {
+                    "mercado": "Dmais Supermercado",
+                    "preco": 3.29
+                },
+                {
+                    "mercado": "Super Baratão",
+                    "preco": 3.29
+                },
+                {
+                    "mercado": "Medeiros Supermercado",
+                    "preco": 3.29
+                },
+                {
+                    "mercado": "Mercadinho Super Mania",
+                    "preco": 3.39
+                },
+                {
+                    "mercado": "Supermercado Pinheiro e Carneiro",
+                    "preco": 3.39
+                },
+                {
+                    "mercado": "Nidobox",
+                    "preco": 3.49
+                },
+                {
+                    "mercado": "Anali Supermercado",
+                    "preco": 3.49
+                },
+                {
+                    "mercado": "Frangolândia",
+                    "preco": 3.59
+                },
+                {
+                    "mercado": "Cometa Supermercados",
+                    "preco": 3.59
+                },
+                {
+                    "mercado": "Guará Supermercado",
+                    "preco": 3.59
+                },
+                {
+                    "mercado": "Hipermarket Supermercado",
+                    "preco": 3.68
+                },
+                {
+                    "mercado": "Super Lua",
+                    "preco": 3.69
+                },
+                {
+                    "mercado": "Telefrango",
+                    "preco": 3.69
+                },
+                {
+                    "mercado": "Compre Max Supermercado",
+                    "preco": 3.79
+                },
+                {
+                    "mercado": "Mercadinho Santa Edwiges",
+                    "preco": 3.79
+                },
+                {
+                    "mercado": "Cordeiro Supermercados",
+                    "preco": 3.79
+                },
+                {
+                    "mercado": "Super Israel Supermercados",
+                    "preco": 3.79
+                },
+                {
+                    "mercado": "Supermercado Pinheiro",
+                    "preco": 3.85
+                },
+                {
+                    "mercado": "Super Lagoa",
+                    "preco": 3.88
+                },
+                {
+                    "mercado": "Super Portugal",
+                    "preco": 3.89
+                },
+                {
+                    "mercado": "G. Barbosa",
+                    "preco": 3.89
+                },
+                {
+                    "mercado": "Centerbox",
+                    "preco": 3.89
+                },
+                {
+                    "mercado": "Super do Povo",
+                    "preco": 3.89
+                },
+                {
+                    "mercado": "Martri Supermercados",
+                    "preco": 3.99
+                },
+                {
+                    "mercado": "Supermercado Vinte",
+                    "preco": 3.99
+                },
+                {
+                    "mercado": "Extra Supermercado",
+                    "preco": 3.99
+                },
+                {
+                    "mercado": "Rcenter Supermercado",
+                    "preco": 3.99
+                },
+                {
+                    "mercado": "Super Benfica",
+                    "preco": 3.99
+                },
+                {
+                    "mercado": "Supermercado São Luiz",
+                    "preco": 4.19
+                },
+                {
+                    "mercado": "Pão de Açúcar",
+                    "preco": 4.39
+                }
+            ]
+        },
+        {
+            "id": "arroz_kg",
+            "nome": "Arroz (kg)",
+            "imagem": "🍚",
+            "ofertas": [
+                {
+                    "mercado": "Frangolândia",
+                    "preco": 3.59
+                },
+                {
+                    "mercado": "Dmais Supermercado",
+                    "preco": 4.19
+                },
+                {
+                    "mercado": "Super Portugal",
+                    "preco": 4.29
+                },
+                {
+                    "mercado": "Mercadinho Santa Edwiges",
+                    "preco": 4.49
+                },
+                {
+                    "mercado": "Super Baratão",
+                    "preco": 4.49
+                },
+                {
+                    "mercado": "Rcenter Supermercado",
+                    "preco": 4.49
+                },
+                {
+                    "mercado": "Super do Povo",
+                    "preco": 4.49
+                },
+                {
+                    "mercado": "Mercadinho Super Mania",
+                    "preco": 4.59
+                },
+                {
+                    "mercado": "Mercadão São Francisco",
+                    "preco": 4.59
+                },
+                {
+                    "mercado": "Medeiros Supermercado",
+                    "preco": 4.59
+                },
+                {
+                    "mercado": "Telefrango",
+                    "preco": 4.59
+                },
+                {
+                    "mercado": "Centerbox",
+                    "preco": 4.59
+                },
+                {
+                    "mercado": "Anali Supermercado",
+                    "preco": 4.59
+                },
+                {
+                    "mercado": "Supermercado Pinheiro e Carneiro",
+                    "preco": 4.59
+                },
+                {
+                    "mercado": "Super Lagoa",
+                    "preco": 4.59
+                },
+                {
+                    "mercado": "Martri Supermercados",
+                    "preco": 4.69
+                },
+                {
+                    "mercado": "Nidobox",
+                    "preco": 4.79
+                },
+                {
+                    "mercado": "Pão de Açúcar",
+                    "preco": 4.99
+                },
+                {
+                    "mercado": "Supermercado São Luiz",
+                    "preco": 4.99
+                },
+                {
+                    "mercado": "Compre Max Supermercado",
+                    "preco": 4.99
+                },
+                {
+                    "mercado": "Extra Supermercado",
+                    "preco": 4.99
+                },
+                {
+                    "mercado": "Cordeiro Supermercados",
+                    "preco": 4.99
+                },
+                {
+                    "mercado": "Novo Cordeiro Supermercados",
+                    "preco": 4.99
+                },
+                {
+                    "mercado": "Supermercado Vinte",
+                    "preco": 5.29
+                },
+                {
+                    "mercado": "Super Lua",
+                    "preco": 5.49
+                },
+                {
+                    "mercado": "Hipermarket Supermercado",
+                    "preco": 5.49
+                },
+                {
+                    "mercado": "Supermercado Brasileiro",
+                    "preco": 5.99
+                },
+                {
+                    "mercado": "G. Barbosa",
+                    "preco": 6.49
+                }
+            ]
+        },
+        {
+            "id": "café_250g",
+            "nome": "Café (250g)",
+            "imagem": "☕",
+            "ofertas": [
+                {
+                    "mercado": "Araripe Supermercado",
+                    "preco": 14.9
+                },
+                {
+                    "mercado": "Frangolândia",
+                    "preco": 14.99
+                },
+                {
+                    "mercado": "Compre Max Supermercado",
+                    "preco": 14.99
+                },
+                {
+                    "mercado": "Mercadinho Santa Edwiges",
+                    "preco": 14.99
+                },
+                {
+                    "mercado": "Super Portugal",
+                    "preco": 14.99
+                },
+                {
+                    "mercado": "Super Lua",
+                    "preco": 14.99
+                },
+                {
+                    "mercado": "Medeiros Supermercado",
+                    "preco": 14.99
+                },
+                {
+                    "mercado": "Telefrango",
+                    "preco": 14.99
+                },
+                {
+                    "mercado": "Pão de Açúcar",
+                    "preco": 15.49
+                },
+                {
+                    "mercado": "Supermercado Max Rede",
+                    "preco": 15.99
+                },
+                {
+                    "mercado": "Centerbox",
+                    "preco": 16.49
+                },
+                {
+                    "mercado": "Mercadinho Super Mania",
+                    "preco": 16.99
+                },
+                {
+                    "mercado": "Dmais Supermercado",
+                    "preco": 16.99
+                },
+                {
+                    "mercado": "Super Baratão",
+                    "preco": 16.99
+                },
+                {
+                    "mercado": "Nidobox",
+                    "preco": 16.99
+                },
+                {
+                    "mercado": "Super Israel Supermercados",
+                    "preco": 16.99
+                },
+                {
+                    "mercado": "Rcenter Supermercado",
+                    "preco": 16.99
+                },
+                {
+                    "mercado": "Anali Supermercado",
+                    "preco": 16.99
+                },
+                {
+                    "mercado": "Supermercado Pinheiro e Carneiro",
+                    "preco": 16.99
+                },
+                {
+                    "mercado": "Mercadão São Francisco",
+                    "preco": 17.39
+                },
+                {
+                    "mercado": "Martri Supermercados",
+                    "preco": 17.49
+                },
+                {
+                    "mercado": "Super do Povo",
+                    "preco": 17.49
+                },
+                {
+                    "mercado": "Ofertasso Supermercados -",
+                    "preco": 17.59
+                },
+                {
+                    "mercado": "Cometa Supermercados",
+                    "preco": 17.69
+                },
+                {
+                    "mercado": "Supermercado Pinheiro",
+                    "preco": 17.89
+                },
+                {
+                    "mercado": "Super Lagoa",
+                    "preco": 17.89
+                },
+                {
+                    "mercado": "Super Benfica",
+                    "preco": 17.98
+                },
+                {
+                    "mercado": "Supermercado Vinte",
+                    "preco": 17.99
+                },
+                {
+                    "mercado": "Supermercado São Luiz",
+                    "preco": 17.99
+                },
+                {
+                    "mercado": "Extra Supermercado",
+                    "preco": 17.99
+                },
+                {
+                    "mercado": "Cordeiro Supermercados",
+                    "preco": 17.99
+                },
+                {
+                    "mercado": "Novo Cordeiro Supermercados",
+                    "preco": 17.99
+                },
+                {
+                    "mercado": "Hipermarket Supermercado",
+                    "preco": 17.99
+                },
+                {
+                    "mercado": "Supermercado Brasileiro",
+                    "preco": 18.99
+                },
+                {
+                    "mercado": "Guará Supermercado",
+                    "preco": 18.99
+                },
+                {
+                    "mercado": "G. Barbosa",
+                    "preco": 20.99
+                }
+            ]
+        },
+        {
+            "id": "farinha_kg",
+            "nome": "Farinha (kg)",
+            "imagem": "🥣",
+            "ofertas": [
+                {
+                    "mercado": "Super Lagoa",
+                    "preco": 3.49
+                },
+                {
+                    "mercado": "Frangolândia",
+                    "preco": 3.69
+                },
+                {
+                    "mercado": "Martri Supermercados",
+                    "preco": 3.99
+                },
+                {
+                    "mercado": "Telefrango",
+                    "preco": 3.99
+                },
+                {
+                    "mercado": "Centerbox",
+                    "preco": 3.99
+                },
+                {
+                    "mercado": "Mercadinho Super Mania",
+                    "preco": 4.19
+                },
+                {
+                    "mercado": "Hipermarket Supermercado",
+                    "preco": 4.28
+                },
+                {
+                    "mercado": "Ofertasso Supermercados -",
+                    "preco": 4.29
+                },
+                {
+                    "mercado": "G. Barbosa",
+                    "preco": 4.39
+                },
+                {
+                    "mercado": "Super Lua",
+                    "preco": 4.39
+                },
+                {
+                    "mercado": "Supermercado Brasileiro",
+                    "preco": 4.49
+                },
+                {
+                    "mercado": "Mercadão São Francisco",
+                    "preco": 4.49
+                },
+                {
+                    "mercado": "Super Baratão",
+                    "preco": 4.49
+                },
+                {
+                    "mercado": "Cordeiro Supermercados",
+                    "preco": 4.49
+                },
+                {
+                    "mercado": "Rcenter Supermercado",
+                    "preco": 4.49
+                },
+                {
+                    "mercado": "Super do Povo",
+                    "preco": 4.49
+                },
+                {
+                    "mercado": "Supermercado Vinte",
+                    "preco": 4.59
+                },
+                {
+                    "mercado": "Cometa Supermercados",
+                    "preco": 4.59
+                },
+                {
+                    "mercado": "Supermercado Max Rede",
+                    "preco": 4.69
+                },
+                {
+                    "mercado": "Super Portugal",
+                    "preco": 4.69
+                },
+                {
+                    "mercado": "Supermercado Pinheiro e Carneiro",
+                    "preco": 4.69
+                },
+                {
+                    "mercado": "Super Benfica",
+                    "preco": 4.69
+                },
+                {
+                    "mercado": "Supermercado Pinheiro",
+                    "preco": 4.95
+                },
+                {
+                    "mercado": "Pão de Açúcar",
+                    "preco": 4.99
+                },
+                {
+                    "mercado": "Supermercado São Luiz",
+                    "preco": 4.99
+                },
+                {
+                    "mercado": "Compre Max Supermercado",
+                    "preco": 4.99
+                },
+                {
+                    "mercado": "Mercadinho Santa Edwiges",
+                    "preco": 4.99
+                },
+                {
+                    "mercado": "Dmais Supermercado",
+                    "preco": 4.99
+                },
+                {
+                    "mercado": "Araripe Supermercado",
+                    "preco": 4.99
+                },
+                {
+                    "mercado": "Medeiros Supermercado",
+                    "preco": 4.99
+                },
+                {
+                    "mercado": "Nidobox",
+                    "preco": 4.99
+                },
+                {
+                    "mercado": "Novo Cordeiro Supermercados",
+                    "preco": 4.99
+                },
+                {
+                    "mercado": "Super Israel Supermercados",
+                    "preco": 4.99
+                },
+                {
+                    "mercado": "Anali Supermercado",
+                    "preco": 4.99
+                },
+                {
+                    "mercado": "Guará Supermercado",
+                    "preco": 4.99
+                },
+                {
+                    "mercado": "Extra Supermercado",
+                    "preco": 5.79
+                }
+            ]
+        },
+        {
+            "id": "feijão_kg",
+            "nome": "Feijão (kg)",
+            "imagem": "🫘",
+            "ofertas": [
+                {
+                    "mercado": "G. Barbosa",
+                    "preco": 5.99
+                },
+                {
+                    "mercado": "Cometa Supermercados",
+                    "preco": 6.79
+                },
+                {
+                    "mercado": "Pão de Açúcar",
+                    "preco": 6.99
+                },
+                {
+                    "mercado": "Supermercado Brasileiro",
+                    "preco": 6.99
+                },
+                {
+                    "mercado": "Super Baratão",
+                    "preco": 7.19
+                },
+                {
+                    "mercado": "Centerbox",
+                    "preco": 7.59
+                },
+                {
+                    "mercado": "Extra Supermercado",
+                    "preco": 7.79
+                },
+                {
+                    "mercado": "Frangolândia",
+                    "preco": 8.19
+                },
+                {
+                    "mercado": "Mercadão São Francisco",
+                    "preco": 8.19
+                },
+                {
+                    "mercado": "Supermercado São Luiz",
+                    "preco": 8.39
+                },
+                {
+                    "mercado": "Mercadinho Super Mania",
+                    "preco": 8.69
+                },
+                {
+                    "mercado": "Telefrango",
+                    "preco": 8.69
+                },
+                {
+                    "mercado": "Cordeiro Supermercados",
+                    "preco": 8.99
+                },
+                {
+                    "mercado": "Super Lua",
+                    "preco": 8.99
+                },
+                {
+                    "mercado": "Medeiros Supermercado",
+                    "preco": 8.99
+                },
+                {
+                    "mercado": "Nidobox",
+                    "preco": 8.99
+                },
+                {
+                    "mercado": "Novo Cordeiro Supermercados",
+                    "preco": 8.99
+                },
+                {
+                    "mercado": "Hipermarket Supermercado",
+                    "preco": 8.99
+                },
+                {
+                    "mercado": "Rcenter Supermercado",
+                    "preco": 8.99
+                },
+                {
+                    "mercado": "Super do Povo",
+                    "preco": 8.99
+                },
+                {
+                    "mercado": "Super Israel Supermercados",
+                    "preco": 9.29
+                },
+                {
+                    "mercado": "Supermercado Max Rede",
+                    "preco": 9.39
+                },
+                {
+                    "mercado": "Compre Max Supermercado",
+                    "preco": 9.49
+                },
+                {
+                    "mercado": "Dmais Supermercado",
+                    "preco": 9.49
+                },
+                {
+                    "mercado": "Supermercado Pinheiro e Carneiro",
+                    "preco": 9.49
+                },
+                {
+                    "mercado": "Guará Supermercado",
+                    "preco": 9.49
+                },
+                {
+                    "mercado": "Super Lagoa",
+                    "preco": 9.49
+                },
+                {
+                    "mercado": "Araripe Supermercado",
+                    "preco": 9.59
+                },
+                {
+                    "mercado": "Supermercado Pinheiro",
+                    "preco": 9.65
+                },
+                {
+                    "mercado": "Anali Supermercado",
+                    "preco": 9.79
+                },
+                {
+                    "mercado": "Martri Supermercados",
+                    "preco": 9.99
+                }
+            ]
+        },
+        {
+            "id": "leite_l",
+            "nome": "Leite (L)",
+            "imagem": "🥛",
+            "ofertas": [
+                {
+                    "mercado": "Super Baratão",
+                    "preco": 4.99
+                },
+                {
+                    "mercado": "Supermercado Brasileiro",
+                    "preco": 5.49
+                },
+                {
+                    "mercado": "Supermercado Max Rede",
+                    "preco": 5.49
+                },
+                {
+                    "mercado": "Medeiros Supermercado",
+                    "preco": 5.49
+                },
+                {
+                    "mercado": "Centerbox",
+                    "preco": 5.49
+                },
+                {
+                    "mercado": "Mercadão São Francisco",
+                    "preco": 5.59
+                },
+                {
+                    "mercado": "Super Lagoa",
+                    "preco": 5.69
+                },
+                {
+                    "mercado": "Pão de Açúcar",
+                    "preco": 5.79
+                },
+                {
+                    "mercado": "Extra Supermercado",
+                    "preco": 5.79
+                },
+                {
+                    "mercado": "Frangolândia",
+                    "preco": 5.89
+                },
+                {
+                    "mercado": "Cometa Supermercados",
+                    "preco": 5.95
+                },
+                {
+                    "mercado": "Supermercado Pinheiro",
+                    "preco": 5.95
+                },
+                {
+                    "mercado": "Martri Supermercados",
+                    "preco": 5.99
+                },
+                {
+                    "mercado": "Mercadinho Santa Edwiges",
+                    "preco": 5.99
+                },
+                {
+                    "mercado": "Dmais Supermercado",
+                    "preco": 5.99
+                },
+                {
+                    "mercado": "Araripe Supermercado",
+                    "preco": 5.99
+                },
+                {
+                    "mercado": "G. Barbosa",
+                    "preco": 5.99
+                },
+                {
+                    "mercado": "Super Lua",
+                    "preco": 5.99
+                },
+                {
+                    "mercado": "Nidobox",
+                    "preco": 5.99
+                },
+                {
+                    "mercado": "Telefrango",
+                    "preco": 5.99
+                },
+                {
+                    "mercado": "Novo Cordeiro Supermercados",
+                    "preco": 5.99
+                },
+                {
+                    "mercado": "Super do Povo",
+                    "preco": 5.99
+                },
+                {
+                    "mercado": "Mercadinho Super Mania",
+                    "preco": 6.19
+                },
+                {
+                    "mercado": "Super Portugal",
+                    "preco": 6.19
+                },
+                {
+                    "mercado": "Supermercado Pinheiro e Carneiro",
+                    "preco": 6.19
+                },
+                {
+                    "mercado": "Compre Max Supermercado",
+                    "preco": 6.29
+                },
+                {
+                    "mercado": "Ofertasso Supermercados -",
+                    "preco": 6.29
+                },
+                {
+                    "mercado": "Hipermarket Supermercado",
+                    "preco": 6.29
+                },
+                {
+                    "mercado": "Guará Supermercado",
+                    "preco": 6.38
+                },
+                {
+                    "mercado": "Supermercado São Luiz",
+                    "preco": 6.39
+                },
+                {
+                    "mercado": "Cordeiro Supermercados",
+                    "preco": 6.49
+                },
+                {
+                    "mercado": "Supermercado Vinte",
+                    "preco": 6.99
+                },
+                {
+                    "mercado": "Rcenter Supermercado",
+                    "preco": 6.99
+                },
+                {
+                    "mercado": "Super Benfica",
+                    "preco": 6.99
+                }
+            ]
+        },
+        {
+            "id": "óleo_de_soja_900ml",
+            "nome": "Óleo de Soja (900ml)",
+            "imagem": "🛢️",
+            "ofertas": [
+                {
+                    "mercado": "Frangolândia",
+                    "preco": 7.69
+                },
+                {
+                    "mercado": "Supermercado Brasileiro",
+                    "preco": 7.99
+                },
+                {
+                    "mercado": "Martri Supermercados",
+                    "preco": 8.19
+                },
+                {
+                    "mercado": "Araripe Supermercado",
+                    "preco": 8.29
+                },
+                {
+                    "mercado": "Dmais Supermercado",
+                    "preco": 8.49
+                },
+                {
+                    "mercado": "Supermercado Max Rede",
+                    "preco": 8.49
+                },
+                {
+                    "mercado": "Mercadão São Francisco",
+                    "preco": 8.59
+                },
+                {
+                    "mercado": "G. Barbosa",
+                    "preco": 8.59
+                },
+                {
+                    "mercado": "Medeiros Supermercado",
+                    "preco": 8.59
+                },
+                {
+                    "mercado": "Super Portugal",
+                    "preco": 8.79
+                },
+                {
+                    "mercado": "Supermercado São Luiz",
+                    "preco": 8.9
+                },
+                {
+                    "mercado": "Hipermarket Supermercado",
+                    "preco": 8.98
+                },
+                {
+                    "mercado": "Mercadinho Super Mania",
+                    "preco": 8.99
+                },
+                {
+                    "mercado": "Pão de Açúcar",
+                    "preco": 8.99
+                },
+                {
+                    "mercado": "Mercadinho Santa Edwiges",
+                    "preco": 8.99
+                },
+                {
+                    "mercado": "Anali Supermercado",
+                    "preco": 8.99
+                },
+                {
+                    "mercado": "Supermercado Pinheiro e Carneiro",
+                    "preco": 8.99
+                },
+                {
+                    "mercado": "Super Benfica",
+                    "preco": 8.99
+                },
+                {
+                    "mercado": "Cometa Supermercados",
+                    "preco": 9.19
+                },
+                {
+                    "mercado": "Supermercado Pinheiro",
+                    "preco": 9.19
+                },
+                {
+                    "mercado": "Super Lagoa",
+                    "preco": 9.19
+                },
+                {
+                    "mercado": "Compre Max Supermercado",
+                    "preco": 9.49
+                },
+                {
+                    "mercado": "Extra Supermercado",
+                    "preco": 9.49
+                },
+                {
+                    "mercado": "Super Baratão",
+                    "preco": 9.49
+                },
+                {
+                    "mercado": "Cordeiro Supermercados",
+                    "preco": 9.49
+                },
+                {
+                    "mercado": "Nidobox",
+                    "preco": 9.49
+                },
+                {
+                    "mercado": "Centerbox",
+                    "preco": 9.49
+                },
+                {
+                    "mercado": "Super do Povo",
+                    "preco": 9.49
+                },
+                {
+                    "mercado": "Novo Cordeiro Supermercados",
+                    "preco": 9.59
+                },
+                {
+                    "mercado": "Rcenter Supermercado",
+                    "preco": 9.69
+                },
+                {
+                    "mercado": "Supermercado Vinte",
+                    "preco": 9.99
+                },
+                {
+                    "mercado": "Ofertasso Supermercados -",
+                    "preco": 9.99
+                },
+                {
+                    "mercado": "Super Lua",
+                    "preco": 9.99
+                },
+                {
+                    "mercado": "Telefrango",
+                    "preco": 9.99
+                },
+                {
+                    "mercado": "Super Israel Supermercados",
+                    "preco": 9.99
+                },
+                {
+                    "mercado": "Guará Supermercado",
+                    "preco": 10.29
+                }
+            ]
+        },
+        {
+            "id": "carne_coxão_mole_kg",
+            "nome": "Carne (Coxão Mole) (kg)",
+            "imagem": "🥩",
+            "ofertas": [
+                {
+                    "mercado": "Pão de Açúcar",
+                    "preco": 38.99
+                },
+                {
+                    "mercado": "Compre Max Supermercado",
+                    "preco": 43.99
+                },
+                {
+                    "mercado": "Super Portugal",
+                    "preco": 43.99
+                },
+                {
+                    "mercado": "Super Lua",
+                    "preco": 43.99
+                },
+                {
+                    "mercado": "Mercadão São Francisco",
+                    "preco": 44.59
+                },
+                {
+                    "mercado": "Supermercado Brasileiro",
+                    "preco": 46.99
+                },
+                {
+                    "mercado": "Cometa Supermercados",
+                    "preco": 46.99
+                },
+                {
+                    "mercado": "Ofertasso Supermercados -",
+                    "preco": 47.89
+                },
+                {
+                    "mercado": "Mercadinho Santa Edwiges",
+                    "preco": 47.99
+                },
+                {
+                    "mercado": "Araripe Supermercado",
+                    "preco": 47.99
+                },
+                {
+                    "mercado": "Supermercado Vinte",
+                    "preco": 48.49
+                },
+                {
+                    "mercado": "Centerbox",
+                    "preco": 48.9
+                },
+                {
+                    "mercado": "G. Barbosa",
+                    "preco": 48.99
+                },
+                {
+                    "mercado": "Anali Supermercado",
+                    "preco": 48.99
+                },
+                {
+                    "mercado": "Extra Supermercado",
+                    "preco": 49.9
+                },
+                {
+                    "mercado": "Super Israel Supermercados",
+                    "preco": 49.9
+                },
+                {
+                    "mercado": "Martri Supermercados",
+                    "preco": 49.99
+                },
+                {
+                    "mercado": "Rcenter Supermercado",
+                    "preco": 49.99
+                },
+                {
+                    "mercado": "Supermercado Pinheiro e Carneiro",
+                    "preco": 50.99
+                },
+                {
+                    "mercado": "Mercadinho Super Mania",
+                    "preco": 51.99
+                },
+                {
+                    "mercado": "Dmais Supermercado",
+                    "preco": 51.99
+                },
+                {
+                    "mercado": "Super Baratão",
+                    "preco": 51.99
+                },
+                {
+                    "mercado": "Cordeiro Supermercados",
+                    "preco": 51.99
+                },
+                {
+                    "mercado": "Hipermarket Supermercado",
+                    "preco": 51.99
+                },
+                {
+                    "mercado": "Super Benfica",
+                    "preco": 51.99
+                },
+                {
+                    "mercado": "Novo Cordeiro Supermercados",
+                    "preco": 52.99
+                },
+                {
+                    "mercado": "Frangolândia",
+                    "preco": 55.99
+                },
+                {
+                    "mercado": "Medeiros Supermercado",
+                    "preco": 56.99
+                },
+                {
+                    "mercado": "Nidobox",
+                    "preco": 56.99
+                },
+                {
+                    "mercado": "Telefrango",
+                    "preco": 56.99
+                },
+                {
+                    "mercado": "Supermercado Pinheiro",
+                    "preco": 56.99
+                },
+                {
+                    "mercado": "Super do Povo",
+                    "preco": 56.99
+                },
+                {
+                    "mercado": "Guará Supermercado",
+                    "preco": 56.99
+                },
+                {
+                    "mercado": "Super Lagoa",
+                    "preco": 56.99
+                },
+                {
+                    "mercado": "Supermercado Max Rede",
+                    "preco": 59.99
+                },
+                {
+                    "mercado": "Supermercado São Luiz",
+                    "preco": 79.99
+                }
+            ]
+        },
+        {
+            "id": "carne_coxão_duro_kg",
+            "nome": "Carne (Coxão Duro) (kg)",
+            "imagem": "🥩",
+            "ofertas": [
+                {
+                    "mercado": "Supermercado Vinte",
+                    "preco": 39.99
+                },
+                {
+                    "mercado": "Supermercado Brasileiro",
+                    "preco": 39.99
+                },
+                {
+                    "mercado": "Mercadão São Francisco",
+                    "preco": 39.99
+                },
+                {
+                    "mercado": "Super Portugal",
+                    "preco": 41.99
+                },
+                {
+                    "mercado": "Super Benfica",
+                    "preco": 41.99
+                },
+                {
+                    "mercado": "Araripe Supermercado",
+                    "preco": 43.49
+                },
+                {
+                    "mercado": "Super Israel Supermercados",
+                    "preco": 43.49
+                },
+                {
+                    "mercado": "Anali Supermercado",
+                    "preco": 44.99
+                },
+                {
+                    "mercado": "Centerbox",
+                    "preco": 45.9
+                },
+                {
+                    "mercado": "Mercadinho Super Mania",
+                    "preco": 45.99
+                },
+                {
+                    "mercado": "Mercadinho Santa Edwiges",
+                    "preco": 45.99
+                },
+                {
+                    "mercado": "Dmais Supermercado",
+                    "preco": 45.99
+                },
+                {
+                    "mercado": "Cordeiro Supermercados",
+                    "preco": 45.99
+                },
+                {
+                    "mercado": "Rcenter Supermercado",
+                    "preco": 45.99
+                },
+                {
+                    "mercado": "Supermercado Pinheiro e Carneiro",
+                    "preco": 45.99
+                },
+                {
+                    "mercado": "Ofertasso Supermercados -",
+                    "preco": 46.99
+                },
+                {
+                    "mercado": "Super Baratão",
+                    "preco": 46.99
+                },
+                {
+                    "mercado": "Martri Supermercados",
+                    "preco": 47.99
+                },
+                {
+                    "mercado": "Compre Max Supermercado",
+                    "preco": 47.99
+                },
+                {
+                    "mercado": "Extra Supermercado",
+                    "preco": 48.9
+                },
+                {
+                    "mercado": "Novo Cordeiro Supermercados",
+                    "preco": 48.99
+                },
+                {
+                    "mercado": "Hipermarket Supermercado",
+                    "preco": 48.99
+                },
+                {
+                    "mercado": "Frangolândia",
+                    "preco": 49.79
+                },
+                {
+                    "mercado": "Pão de Açúcar",
+                    "preco": 49.9
+                },
+                {
+                    "mercado": "Cometa Supermercados",
+                    "preco": 51.99
+                },
+                {
+                    "mercado": "Medeiros Supermercado",
+                    "preco": 51.99
+                },
+                {
+                    "mercado": "Nidobox",
+                    "preco": 51.99
+                },
+                {
+                    "mercado": "Telefrango",
+                    "preco": 51.99
+                },
+                {
+                    "mercado": "Supermercado Pinheiro",
+                    "preco": 51.99
+                },
+                {
+                    "mercado": "Super do Povo",
+                    "preco": 51.99
+                },
+                {
+                    "mercado": "Guará Supermercado",
+                    "preco": 51.99
+                },
+                {
+                    "mercado": "Super Lagoa",
+                    "preco": 51.99
+                },
+                {
+                    "mercado": "Super Lua",
+                    "preco": 55.99
+                },
+                {
+                    "mercado": "Supermercado Max Rede",
+                    "preco": 56.99
+                }
+            ]
+        },
+        {
+            "id": "carne_lombo_com_osso_kg",
+            "nome": "Carne (Lombo com Osso) (kg)",
+            "imagem": "🍖",
+            "ofertas": [
+                {
+                    "mercado": "G. Barbosa",
+                    "preco": 24.99
+                },
+                {
+                    "mercado": "Supermercado Brasileiro",
+                    "preco": 27.79
+                },
+                {
+                    "mercado": "Compre Max Supermercado",
+                    "preco": 27.99
+                },
+                {
+                    "mercado": "Mercadão São Francisco",
+                    "preco": 27.99
+                },
+                {
+                    "mercado": "Cometa Supermercados",
+                    "preco": 27.99
+                },
+                {
+                    "mercado": "Super Portugal",
+                    "preco": 27.99
+                },
+                {
+                    "mercado": "Super Lua",
+                    "preco": 27.99
+                },
+                {
+                    "mercado": "Novo Cordeiro Supermercados",
+                    "preco": 27.99
+                },
+                {
+                    "mercado": "Guará Supermercado",
+                    "preco": 27.99
+                },
+                {
+                    "mercado": "Super Israel Supermercados",
+                    "preco": 28.49
+                },
+                {
+                    "mercado": "Martri Supermercados",
+                    "preco": 28.99
+                },
+                {
+                    "mercado": "Supermercado Vinte",
+                    "preco": 28.99
+                },
+                {
+                    "mercado": "Araripe Supermercado",
+                    "preco": 28.99
+                },
+                {
+                    "mercado": "Hipermarket Supermercado",
+                    "preco": 29.99
+                },
+                {
+                    "mercado": "Centerbox",
+                    "preco": 30.49
+                },
+                {
+                    "mercado": "Frangolândia",
+                    "preco": 30.99
+                },
+                {
+                    "mercado": "Cordeiro Supermercados",
+                    "preco": 30.99
+                },
+                {
+                    "mercado": "Anali Supermercado",
+                    "preco": 30.99
+                },
+                {
+                    "mercado": "Mercadinho Super Mania",
+                    "preco": 31.88
+                },
+                {
+                    "mercado": "Mercadinho Santa Edwiges",
+                    "preco": 31.99
+                },
+                {
+                    "mercado": "Dmais Supermercado",
+                    "preco": 31.99
+                },
+                {
+                    "mercado": "Ofertasso Supermercados -",
+                    "preco": 31.99
+                },
+                {
+                    "mercado": "Super Baratão",
+                    "preco": 31.99
+                },
+                {
+                    "mercado": "Supermercado Max Rede",
+                    "preco": 31.99
+                },
+                {
+                    "mercado": "Medeiros Supermercado",
+                    "preco": 31.99
+                },
+                {
+                    "mercado": "Rcenter Supermercado",
+                    "preco": 31.99
+                },
+                {
+                    "mercado": "Nidobox",
+                    "preco": 32.99
+                },
+                {
+                    "mercado": "Telefrango",
+                    "preco": 32.99
+                },
+                {
+                    "mercado": "Supermercado Pinheiro",
+                    "preco": 32.99
+                },
+                {
+                    "mercado": "Super do Povo",
+                    "preco": 32.99
+                },
+                {
+                    "mercado": "Supermercado Pinheiro e Carneiro",
+                    "preco": 32.99
+                },
+                {
+                    "mercado": "Super Lagoa",
+                    "preco": 32.99
+                },
+                {
+                    "mercado": "Super Benfica",
+                    "preco": 32.99
+                },
+                {
+                    "mercado": "Supermercado São Luiz",
+                    "preco": 37.75
+                }
+            ]
+        },
+        {
+            "id": "banana_kg",
+            "nome": "Banana (kg)",
+            "imagem": "🍌",
+            "ofertas": [
+                {
+                    "mercado": "Nidobox",
+                    "preco": 3.99
+                },
+                {
+                    "mercado": "Ofertasso Supermercados -",
+                    "preco": 4.89
+                },
+                {
+                    "mercado": "Supermercado Vinte",
+                    "preco": 4.99
+                },
+                {
+                    "mercado": "Araripe Supermercado",
+                    "preco": 4.99
+                },
+                {
+                    "mercado": "Mercadão São Francisco",
+                    "preco": 5.49
+                },
+                {
+                    "mercado": "Super Baratão",
+                    "preco": 5.49
+                },
+                {
+                    "mercado": "Super Lua",
+                    "preco": 5.59
+                },
+                {
+                    "mercado": "Medeiros Supermercado",
+                    "preco": 5.59
+                },
+                {
+                    "mercado": "Supermercado Pinheiro e Carneiro",
+                    "preco": 5.89
+                },
+                {
+                    "mercado": "Martri Supermercados",
+                    "preco": 5.99
+                },
+                {
+                    "mercado": "Frangolândia",
+                    "preco": 5.99
+                },
+                {
+                    "mercado": "Supermercado São Luiz",
+                    "preco": 5.99
+                },
+                {
+                    "mercado": "Compre Max Supermercado",
+                    "preco": 5.99
+                },
+                {
+                    "mercado": "Dmais Supermercado",
+                    "preco": 5.99
+                },
+                {
+                    "mercado": "Cordeiro Supermercados",
+                    "preco": 5.99
+                },
+                {
+                    "mercado": "Novo Cordeiro Supermercados",
+                    "preco": 5.99
+                },
+                {
+                    "mercado": "Hipermarket Supermercado",
+                    "preco": 5.99
+                },
+                {
+                    "mercado": "Rcenter Supermercado",
+                    "preco": 5.99
+                },
+                {
+                    "mercado": "Super Benfica",
+                    "preco": 5.99
+                },
+                {
+                    "mercado": "Centerbox",
+                    "preco": 6.29
+                },
+                {
+                    "mercado": "Super Israel Supermercados",
+                    "preco": 6.29
+                },
+                {
+                    "mercado": "Anali Supermercado",
+                    "preco": 6.48
+                },
+                {
+                    "mercado": "Supermercado Max Rede",
+                    "preco": 6.49
+                },
+                {
+                    "mercado": "Mercadinho Super Mania",
+                    "preco": 6.59
+                },
+                {
+                    "mercado": "Super Portugal",
+                    "preco": 6.59
+                },
+                {
+                    "mercado": "Mercadinho Santa Edwiges",
+                    "preco": 6.99
+                },
+                {
+                    "mercado": "Supermercado Brasileiro",
+                    "preco": 6.99
+                },
+                {
+                    "mercado": "Extra Supermercado",
+                    "preco": 6.99
+                },
+                {
+                    "mercado": "G. Barbosa",
+                    "preco": 6.99
+                },
+                {
+                    "mercado": "Telefrango",
+                    "preco": 6.99
+                },
+                {
+                    "mercado": "Supermercado Pinheiro",
+                    "preco": 6.99
+                },
+                {
+                    "mercado": "Super Lagoa",
+                    "preco": 6.99
+                },
+                {
+                    "mercado": "Cometa Supermercados",
+                    "preco": 7.28
+                },
+                {
+                    "mercado": "Pão de Açúcar",
+                    "preco": 7.49
+                },
+                {
+                    "mercado": "Super do Povo",
+                    "preco": 7.49
+                },
+                {
+                    "mercado": "Guará Supermercado",
+                    "preco": 7.49
+                }
+            ]
+        },
+        {
+            "id": "tomate_kg",
+            "nome": "Tomate (kg)",
+            "imagem": "🍅",
+            "ofertas": [
+                {
+                    "mercado": "Compre Max Supermercado",
+                    "preco": 4.99
+                },
+                {
+                    "mercado": "Ofertasso Supermercados -",
+                    "preco": 5.95
+                },
+                {
+                    "mercado": "Super Lua",
+                    "preco": 6.29
+                },
+                {
+                    "mercado": "Supermercado São Luiz",
+                    "preco": 6.99
+                },
+                {
+                    "mercado": "Super Portugal",
+                    "preco": 6.99
+                },
+                {
+                    "mercado": "Novo Cordeiro Supermercados",
+                    "preco": 6.99
+                },
+                {
+                    "mercado": "Mercadão São Francisco",
+                    "preco": 7.29
+                },
+                {
+                    "mercado": "Martri Supermercados",
+                    "preco": 7.49
+                },
+                {
+                    "mercado": "Mercadinho Super Mania",
+                    "preco": 7.49
+                },
+                {
+                    "mercado": "Supermercado Vinte",
+                    "preco": 7.49
+                },
+                {
+                    "mercado": "Mercadinho Santa Edwiges",
+                    "preco": 7.99
+                },
+                {
+                    "mercado": "Extra Supermercado",
+                    "preco": 7.99
+                },
+                {
+                    "mercado": "Super Baratão",
+                    "preco": 7.99
+                },
+                {
+                    "mercado": "Cometa Supermercados",
+                    "preco": 7.99
+                },
+                {
+                    "mercado": "Medeiros Supermercado",
+                    "preco": 7.99
+                },
+                {
+                    "mercado": "Nidobox",
+                    "preco": 7.99
+                },
+                {
+                    "mercado": "Hipermarket Supermercado",
+                    "preco": 7.99
+                },
+                {
+                    "mercado": "Super do Povo",
+                    "preco": 7.99
+                },
+                {
+                    "mercado": "Super Benfica",
+                    "preco": 7.99
+                },
+                {
+                    "mercado": "Super Israel Supermercados",
+                    "preco": 8.19
+                },
+                {
+                    "mercado": "Araripe Supermercado",
+                    "preco": 8.49
+                },
+                {
+                    "mercado": "Pão de Açúcar",
+                    "preco": 8.99
+                },
+                {
+                    "mercado": "Telefrango",
+                    "preco": 8.99
+                },
+                {
+                    "mercado": "Centerbox",
+                    "preco": 8.99
+                },
+                {
+                    "mercado": "Supermercado Pinheiro",
+                    "preco": 9.39
+                },
+                {
+                    "mercado": "G. Barbosa",
+                    "preco": 9.69
+                },
+                {
+                    "mercado": "Supermercado Pinheiro e Carneiro",
+                    "preco": 9.89
+                },
+                {
+                    "mercado": "Frangolândia",
+                    "preco": 9.99
+                },
+                {
+                    "mercado": "Supermercado Brasileiro",
+                    "preco": 9.99
+                },
+                {
+                    "mercado": "Dmais Supermercado",
+                    "preco": 9.99
+                },
+                {
+                    "mercado": "Supermercado Max Rede",
+                    "preco": 9.99
+                },
+                {
+                    "mercado": "Cordeiro Supermercados",
+                    "preco": 9.99
+                },
+                {
+                    "mercado": "Rcenter Supermercado",
+                    "preco": 9.99
+                },
+                {
+                    "mercado": "Super Lagoa",
+                    "preco": 9.99
+                },
+                {
+                    "mercado": "Anali Supermercado",
+                    "preco": 10.99
+                },
+                {
+                    "mercado": "Guará Supermercado",
+                    "preco": 10.99
+                }
+            ]
+        },
+        {
+            "id": "manteiga",
+            "nome": "Manteiga",
+            "imagem": "🧈",
+            "ofertas": [
+                {
+                    "mercado": "Supermercado Brasileiro",
+                    "preco": 10.99
+                },
+                {
+                    "mercado": "Frangolândia",
+                    "preco": 14.99
+                },
+                {
+                    "mercado": "Super Lua",
+                    "preco": 15.99
+                },
+                {
+                    "mercado": "Telefrango",
+                    "preco": 15.99
+                },
+                {
+                    "mercado": "Martri Supermercados",
+                    "preco": 17.99
+                },
+                {
+                    "mercado": "Mercadão São Francisco",
+                    "preco": 17.99
+                },
+                {
+                    "mercado": "Supermercado Max Rede",
+                    "preco": 17.99
+                },
+                {
+                    "mercado": "Araripe Supermercado",
+                    "preco": 18.99
+                },
+                {
+                    "mercado": "Super Portugal",
+                    "preco": 21.99
+                },
+                {
+                    "mercado": "Mercadinho Santa Edwiges",
+                    "preco": 22.99
+                },
+                {
+                    "mercado": "Cometa Supermercados",
+                    "preco": 22.99
+                },
+                {
+                    "mercado": "Medeiros Supermercado",
+                    "preco": 22.99
+                },
+                {
+                    "mercado": "Novo Cordeiro Supermercados",
+                    "preco": 22.99
+                },
+                {
+                    "mercado": "Super Lagoa",
+                    "preco": 22.99
+                },
+                {
+                    "mercado": "Anali Supermercado",
+                    "preco": 23.39
+                },
+                {
+                    "mercado": "Ofertasso Supermercados -",
+                    "preco": 23.69
+                },
+                {
+                    "mercado": "Pão de Açúcar",
+                    "preco": 23.89
+                },
+                {
+                    "mercado": "Supermercado Vinte",
+                    "preco": 23.99
+                },
+                {
+                    "mercado": "Centerbox",
+                    "preco": 24.99
+                },
+                {
+                    "mercado": "Hipermarket Supermercado",
+                    "preco": 24.99
+                },
+                {
+                    "mercado": "Super do Povo",
+                    "preco": 24.99
+                },
+                {
+                    "mercado": "Supermercado Pinheiro",
+                    "preco": 25.39
+                },
+                {
+                    "mercado": "Mercadinho Super Mania",
+                    "preco": 25.79
+                },
+                {
+                    "mercado": "Guará Supermercado",
+                    "preco": 26.39
+                },
+                {
+                    "mercado": "Compre Max Supermercado",
+                    "preco": 26.99
+                },
+                {
+                    "mercado": "Super Baratão",
+                    "preco": 26.99
+                },
+                {
+                    "mercado": "Extra Supermercado",
+                    "preco": 27.9
+                },
+                {
+                    "mercado": "G. Barbosa",
+                    "preco": 27.99
+                },
+                {
+                    "mercado": "Nidobox",
+                    "preco": 27.99
+                },
+                {
+                    "mercado": "Supermercado Pinheiro e Carneiro",
+                    "preco": 27.99
+                },
+                {
+                    "mercado": "Dmais Supermercado",
+                    "preco": 28.0
+                },
+                {
+                    "mercado": "Super Benfica",
+                    "preco": 28.49
+                },
+                {
+                    "mercado": "Supermercado São Luiz",
+                    "preco": 29.69
+                },
+                {
+                    "mercado": "Cordeiro Supermercados",
+                    "preco": 29.99
+                },
+                {
+                    "mercado": "Super Israel Supermercados",
+                    "preco": 29.99
+                },
+                {
+                    "mercado": "Rcenter Supermercado",
+                    "preco": 29.99
+                }
+            ]
+        },
+        {
+            "id": "pão_francês_kg",
+            "nome": "Pão Francês (kg)",
+            "imagem": "🥖",
+            "ofertas": [
+                {
+                    "mercado": "Frangolândia",
+                    "preco": 9.9
+                },
+                {
+                    "mercado": "Supermercado Vinte",
+                    "preco": 14.99
+                },
+                {
+                    "mercado": "Super Baratão",
+                    "preco": 14.99
+                },
+                {
+                    "mercado": "Araripe Supermercado",
+                    "preco": 16.49
+                },
+                {
+                    "mercado": "Mercadão São Francisco",
+                    "preco": 16.49
+                },
+                {
+                    "mercado": "Martri Supermercados",
+                    "preco": 16.99
+                },
+                {
+                    "mercado": "Mercadinho Super Mania",
+                    "preco": 16.99
+                },
+                {
+                    "mercado": "Mercadinho Santa Edwiges",
+                    "preco": 16.99
+                },
+                {
+                    "mercado": "Supermercado Max Rede",
+                    "preco": 16.99
+                },
+                {
+                    "mercado": "Cordeiro Supermercados",
+                    "preco": 16.99
+                },
+                {
+                    "mercado": "Novo Cordeiro Supermercados",
+                    "preco": 16.99
+                },
+                {
+                    "mercado": "Anali Supermercado",
+                    "preco": 16.99
+                },
+                {
+                    "mercado": "Compre Max Supermercado",
+                    "preco": 17.99
+                },
+                {
+                    "mercado": "Ofertasso Supermercados -",
+                    "preco": 17.99
+                },
+                {
+                    "mercado": "Super Benfica",
+                    "preco": 17.99
+                },
+                {
+                    "mercado": "Supermercado Pinheiro e Carneiro",
+                    "preco": 18.89
+                },
+                {
+                    "mercado": "Rcenter Supermercado",
+                    "preco": 18.99
+                },
+                {
+                    "mercado": "Nidobox",
+                    "preco": 19.9
+                },
+                {
+                    "mercado": "Super Lua",
+                    "preco": 19.99
+                },
+                {
+                    "mercado": "Extra Supermercado",
+                    "preco": 20.9
+                },
+                {
+                    "mercado": "Supermercado Brasileiro",
+                    "preco": 20.99
+                },
+                {
+                    "mercado": "G. Barbosa",
+                    "preco": 20.99
+                },
+                {
+                    "mercado": "Centerbox",
+                    "preco": 20.99
+                },
+                {
+                    "mercado": "Hipermarket Supermercado",
+                    "preco": 20.99
+                },
+                {
+                    "mercado": "Telefrango",
+                    "preco": 21.99
+                },
+                {
+                    "mercado": "Super do Povo",
+                    "preco": 21.99
+                },
+                {
+                    "mercado": "Medeiros Supermercado",
+                    "preco": 22.9
+                },
+                {
+                    "mercado": "Cometa Supermercados",
+                    "preco": 22.99
+                },
+                {
+                    "mercado": "Super Portugal",
+                    "preco": 22.99
+                },
+                {
+                    "mercado": "Super Lagoa",
+                    "preco": 22.99
+                },
+                {
+                    "mercado": "Supermercado São Luiz",
+                    "preco": 23.9
+                },
+                {
+                    "mercado": "Supermercado Pinheiro",
+                    "preco": 23.9
+                },
+                {
+                    "mercado": "Guará Supermercado",
+                    "preco": 23.99
+                },
+                {
+                    "mercado": "Pão de Açúcar",
+                    "preco": 25.9
+                },
+                {
+                    "mercado": "Dmais Supermercado",
+                    "preco": 26.99
+                }
+            ]
+        }
+    ],
+    "natal": [
+        {
+            "id": "arroz_kg",
+            "nome": "Arroz (kg)",
+            "imagem": "🍚",
+            "ofertas": [
+                {
+                    "mercado": "Atacadão – Av. Dr. João Medeiros Filho, 778 - Potengi, Natal - RN, 59104-095 – Zona Norte",
+                    "preco": 4.19
+                },
+                {
+                    "mercado": "Assai – Av. Dão Silveira, s/n - Pitimbu, Natal - RN, 59000-000 – Zona Sul",
+                    "preco": 4.29
+                },
+                {
+                    "mercado": "Atacadão - Av. Dão Silveira, 7796 - Pitimbu, Natal - RN, 59066-180 – Zona Sul",
+                    "preco": 4.29
+                },
+                {
+                    "mercado": "Mar Vermelho - Av. Dão Silveira, 4000 - Candelária, Natal - RN, 59066-180 – Zona Sul",
+                    "preco": 4.39
+                },
+                {
+                    "mercado": "Nordestão - Av. Dr. João Medeiros Filho, 1835 - Potengi, Natal - RN, 59108-200 – Zona Norte",
+                    "preco": 4.49
+                },
+                {
+                    "mercado": "Assai – Av. Engenheiro Roberto Freire, 1686 - Capim Macio, Natal - RN, 59078-600 – Zona Sul",
+                    "preco": 4.49
+                },
+                {
+                    "mercado": "Carrefour - Av. Dr. João Medeiros Filho, 2005 - Potengi, Natal - RN, 59108-200 – Zona Norte",
+                    "preco": 4.59
+                },
+                {
+                    "mercado": "Mineirão – R. Lúcia Viveiros, 4511 - Neópolis, Natal - RN, 59086-005 – Zona Sul",
+                    "preco": 4.68
+                },
+                {
+                    "mercado": "Bom Dia - Avenida Senhor do Bonfim, Conjunto Santa Catarina, 5229 - Potengi, Natal - RN, 59120-000 – Zona Norte",
+                    "preco": 4.89
+                },
+                {
+                    "mercado": "Pão de Açúcar - Av. Nevaldo Rocha, 3775 - Tirol, Natal - RN, 59015-450 – Zona Leste",
+                    "preco": 4.99
+                },
+                {
+                    "mercado": "Bom Dia - R. Pres. Mascarenhas, 673 - Alecrim, Natal - RN, 59032-540 – Zona Leste",
+                    "preco": 4.99
+                },
+                {
+                    "mercado": "Super Show - R. Vale do Sol, 304 - Pajuçara, Natal - RN, 59122-500 – Zona Norte",
+                    "preco": 4.99
+                },
+                {
+                    "mercado": "Super Show - R. Dr. Mário Negócio, 1875 - Quintas, Natal - RN, 59040-000 – Zona Oeste",
+                    "preco": 5.29
+                },
+                {
+                    "mercado": "Super Show - Av. Ayrton Senna, 566 - Neópolis, Natal - RN, 59088-740 – Zona Sul",
+                    "preco": 6.49
+                }
+            ]
+        },
+        {
+            "id": "feijão_kg",
+            "nome": "Feijão (kg)",
+            "imagem": "🫘",
+            "ofertas": [
+                {
+                    "mercado": "Atacadão – Av. Dr. João Medeiros Filho, 778 - Potengi, Natal - RN, 59104-095 – Zona Norte",
+                    "preco": 7.19
+                },
+                {
+                    "mercado": "Assai – Av. Dão Silveira, s/n - Pitimbu, Natal - RN, 59000-000 – Zona Sul",
+                    "preco": 7.79
+                },
+                {
+                    "mercado": "Atacadão - Av. Dão Silveira, 7796 - Pitimbu, Natal - RN, 59066-180 – Zona Sul",
+                    "preco": 7.79
+                },
+                {
+                    "mercado": "Atacadão – Av. Prudente de Morais, 3720 - Lagoa Nova, Natal - RN, 59056-900 – Zona Sul",
+                    "preco": 7.79
+                },
+                {
+                    "mercado": "Nordestão - Av. Dr. João Medeiros Filho, 1835 - Potengi, Natal - RN, 59108-200 – Zona Norte",
+                    "preco": 7.99
+                },
+                {
+                    "mercado": "Carrefour – Km 02 - BR-101, s/n - Lagoa Nova, Natal - RN, 59063-904 - – Zona Sul",
+                    "preco": 7.99
+                },
+                {
+                    "mercado": "Pão de Açúcar - Av. Nevaldo Rocha, 3775 - Tirol, Natal - RN, 59015-450 – Zona Leste",
+                    "preco": 8.39
+                },
+                {
+                    "mercado": "Favorito – Av. Engenheiro Roberto Freire, 1460 - Capim Macio, Natal - RN, 59082-055 - – Zona Sul",
+                    "preco": 8.39
+                },
+                {
+                    "mercado": "Favorito – Av. Ayrton Senna, 3215 - Neópolis, Natal - RN, 59086-100 – Zona Sul",
+                    "preco": 8.39
+                },
+                {
+                    "mercado": "Mercado da Casa – R. Vig. Bartolomeu, 587 - Cidade Alta, Natal - RN, 59025-100 – Zona Leste",
+                    "preco": 8.99
+                },
+                {
+                    "mercado": "Nordestão - Av. Engenheiro Roberto Freire, 2050 - Capim Macio, Natal - RN, 59082-400 – Zona Sul",
+                    "preco": 12.99
+                }
+            ]
+        },
+        {
+            "id": "açúcar_kg",
+            "nome": "Açúcar (kg)",
+            "imagem": "🧂",
+            "ofertas": [
+                {
+                    "mercado": "Mar Vermelho - Av. Dão Silveira, 4000 - Candelária, Natal - RN, 59066-180 – Zona Sul",
+                    "preco": 3.29
+                },
+                {
+                    "mercado": "Atacadão – Av. Dr. João Medeiros Filho, 778 - Potengi, Natal - RN, 59104-095 – Zona Norte",
+                    "preco": 3.49
+                },
+                {
+                    "mercado": "Assai – Av. Engenheiro Roberto Freire, 1686 - Capim Macio, Natal - RN, 59078-600 – Zona Sul",
+                    "preco": 3.79
+                },
+                {
+                    "mercado": "Mercado da Casa – R. Vig. Bartolomeu, 587 - Cidade Alta, Natal - RN, 59025-100 – Zona Leste",
+                    "preco": 3.99
+                },
+                {
+                    "mercado": "Bom Dia - R. Pres. Mascarenhas, 673 - Alecrim, Natal - RN, 59032-540 – Zona Leste",
+                    "preco": 3.99
+                },
+                {
+                    "mercado": "Rede Mais - Av. Coronel Estevam, 1258 - Alecrim, Natal - RN, 59030-000 – Zona Leste",
+                    "preco": 4.19
+                },
+                {
+                    "mercado": "Super Show - R. Vale do Sol, 304 - Pajuçara, Natal - RN, 59122-500 – Zona Norte",
+                    "preco": 4.19
+                },
+                {
+                    "mercado": "Favorito – Av. Ayrton Senna, 3215 - Neópolis, Natal - RN, 59086-100 – Zona Sul",
+                    "preco": 4.19
+                },
+                {
+                    "mercado": "Super Show - R. Dr. Mário Negócio, 1875 - Quintas, Natal - RN, 59040-000 – Zona Oeste",
+                    "preco": 4.49
+                },
+                {
+                    "mercado": "Bom Dia - Avenida Senhor do Bonfim, Conjunto Santa Catarina, 5229 - Potengi, Natal - RN, 59120-000 – Zona Norte",
+                    "preco": 4.89
+                },
+                {
+                    "mercado": "Miramar - Av. São Miguel dos Caribes, 4505 – Conjunto Pirangi II – Neópolis, Natal - RN, 59088-500 – Zona Sul",
+                    "preco": 5.29
+                }
+            ]
+        },
+        {
+            "id": "farinha_kg",
+            "nome": "Farinha (kg)",
+            "imagem": "🥣",
+            "ofertas": [
+                {
+                    "mercado": "Assai – Av. Engenheiro Roberto Freire, 1686 - Capim Macio, Natal - RN, 59078-600 – Zona Sul",
+                    "preco": 4.69
+                },
+                {
+                    "mercado": "Atacadão – Av. Dr. João Medeiros Filho, 778 - Potengi, Natal - RN, 59104-095 – Zona Norte",
+                    "preco": 4.89
+                },
+                {
+                    "mercado": "Assai – Av. Dão Silveira, s/n - Pitimbu, Natal - RN, 59000-000 – Zona Sul",
+                    "preco": 4.89
+                },
+                {
+                    "mercado": "Atacadão - Av. Dão Silveira, 7796 - Pitimbu, Natal - RN, 59066-180 – Zona Sul",
+                    "preco": 4.89
+                }
+            ]
+        },
+        {
+            "id": "pão_francês_kg",
+            "nome": "Pão Francês (kg)",
+            "imagem": "🥖",
+            "ofertas": [
+                {
+                    "mercado": "Mineirão – R. Lúcia Viveiros, 4511 - Neópolis, Natal - RN, 59086-005 – Zona Sul",
+                    "preco": 9.8
+                },
+                {
+                    "mercado": "Atacadão – Av. Dr. João Medeiros Filho, 778 - Potengi, Natal - RN, 59104-095 – Zona Norte",
+                    "preco": 11.5
+                },
+                {
+                    "mercado": "Mar Vermelho - Av. Dão Silveira, 4000 - Candelária, Natal - RN, 59066-180 – Zona Sul",
+                    "preco": 11.59
+                },
+                {
+                    "mercado": "Nordestão - Av. Dr. João Medeiros Filho, 1835 - Potengi, Natal - RN, 59108-200 – Zona Norte",
+                    "preco": 11.79
+                },
+                {
+                    "mercado": "Rede Mais - Av. Coronel Estevam, 2458 - Dix-Sept Rosado, Natal - RN, 59062-050 – Zona Oeste",
+                    "preco": 12.9
+                },
+                {
+                    "mercado": "Bom Dia - R. Pres. Mascarenhas, 673 - Alecrim, Natal - RN, 59032-540 – Zona Leste",
+                    "preco": 12.99
+                },
+                {
+                    "mercado": "Bom Dia - Avenida Senhor do Bonfim, Conjunto Santa Catarina, 5229 - Potengi, Natal - RN, 59120-000 – Zona Norte",
+                    "preco": 12.99
+                },
+                {
+                    "mercado": "Rede Mais - R. Djalma Maranhão, 301 - Nova Descoberta, Natal - RN, 59075-290 – Zona Sul",
+                    "preco": 13.9
+                },
+                {
+                    "mercado": "Favorito – Av. Engenheiro Roberto Freire, 1460 - Capim Macio, Natal - RN, 59082-055 - – Zona Sul",
+                    "preco": 13.98
+                },
+                {
+                    "mercado": "Pão de Açúcar - Av. Nevaldo Rocha, 3775 - Tirol, Natal - RN, 59015-450 – Zona Leste",
+                    "preco": 13.99
+                },
+                {
+                    "mercado": "Rede Mais - Av. Coronel Estevam, 1258 - Alecrim, Natal - RN, 59030-000 – Zona Leste",
+                    "preco": 13.99
+                },
+                {
+                    "mercado": "Favorito – Av. Ayrton Senna, 3215 - Neópolis, Natal - RN, 59086-100 – Zona Sul",
+                    "preco": 13.99
+                },
+                {
+                    "mercado": "Nordestão - Av. Engenheiro Roberto Freire, 2050 - Capim Macio, Natal - RN, 59082-400 – Zona Sul",
+                    "preco": 14.49
+                },
+                {
+                    "mercado": "Super Fácil - Av. Capitão - Mor Gouveia, 1361 - Nossa Sra. de Nazaré, Natal - RN, 59060-400 – Zona Oeste",
+                    "preco": 14.9
+                },
+                {
+                    "mercado": "Super Show - Av. Interventor Mário Câmara, 2386 - Nossa Sra. de Nazaré, Natal - RN, 59062-600 – Zona Oeste",
+                    "preco": 14.98
+                },
+                {
+                    "mercado": "Super Show - R. Vale do Sol, 304 - Pajuçara, Natal - RN, 59122-500 – Zona Norte",
+                    "preco": 15.49
+                },
+                {
+                    "mercado": "Assai – Av. Dão Silveira, s/n - Pitimbu, Natal - RN, 59000-000 – Zona Sul",
+                    "preco": 15.5
+                },
+                {
+                    "mercado": "Atacadão - Av. Dão Silveira, 7796 - Pitimbu, Natal - RN, 59066-180 – Zona Sul",
+                    "preco": 15.5
+                },
+                {
+                    "mercado": "Miramar - Av. São Miguel dos Caribes, 4505 – Conjunto Pirangi II – Neópolis, Natal - RN, 59088-500 – Zona Sul",
+                    "preco": 15.59
+                },
+                {
+                    "mercado": "Atacadão – Av. Prudente de Morais, 3720 - Lagoa Nova, Natal - RN, 59056-900 – Zona Sul",
+                    "preco": 15.9
+                },
+                {
+                    "mercado": "Nordestão – Rua Trairi, 342 - Petrópolis, Natal - RN, 59020-15 – Zona Leste",
+                    "preco": 15.99
+                },
+                {
+                    "mercado": "Super Show - Av. Ayrton Senna, 566 - Neópolis, Natal - RN, 59088-740 – Zona Sul",
+                    "preco": 15.99
+                },
+                {
+                    "mercado": "Assai – Av. Engenheiro Roberto Freire, 1686 - Capim Macio, Natal - RN, 59078-600 – Zona Sul",
+                    "preco": 15.99
+                },
+                {
+                    "mercado": "Carrefour - Av. Dr. João Medeiros Filho, 2005 - Potengi, Natal - RN, 59108-200 – Zona Norte",
+                    "preco": 16.99
+                },
+                {
+                    "mercado": "Carrefour – Km 02 - BR-101, s/n - Lagoa Nova, Natal - RN, 59063-904 - – Zona Sul",
+                    "preco": 16.99
+                },
+                {
+                    "mercado": "Mercado da Casa – R. Vig. Bartolomeu, 587 - Cidade Alta, Natal - RN, 59025-100 – Zona Leste",
+                    "preco": 17.99
+                }
+            ]
+        },
+        {
+            "id": "café_250g",
+            "nome": "Café (250g)",
+            "imagem": "☕",
+            "ofertas": [
+                {
+                    "mercado": "Nordestão – Rua Trairi, 342 - Petrópolis, Natal - RN, 59020-15 – Zona Leste",
+                    "preco": 14.89
+                },
+                {
+                    "mercado": "Pão de Açúcar - Av. Nevaldo Rocha, 3775 - Tirol, Natal - RN, 59015-450 – Zona Leste",
+                    "preco": 14.89
+                },
+                {
+                    "mercado": "Favorito – Av. Ayrton Senna, 3215 - Neópolis, Natal - RN, 59086-100 – Zona Sul",
+                    "preco": 14.89
+                },
+                {
+                    "mercado": "Atacadão – Av. Dr. João Medeiros Filho, 778 - Potengi, Natal - RN, 59104-095 – Zona Norte",
+                    "preco": 14.99
+                },
+                {
+                    "mercado": "Assai – Av. Engenheiro Roberto Freire, 1686 - Capim Macio, Natal - RN, 59078-600 – Zona Sul",
+                    "preco": 14.99
+                },
+                {
+                    "mercado": "Super Fácil - Av. Capitão - Mor Gouveia, 1361 - Nossa Sra. de Nazaré, Natal - RN, 59060-400 – Zona Oeste",
+                    "preco": 15.49
+                },
+                {
+                    "mercado": "Miramar - Av. São Miguel dos Caribes, 4505 – Conjunto Pirangi II – Neópolis, Natal - RN, 59088-500 – Zona Sul",
+                    "preco": 15.99
+                },
+                {
+                    "mercado": "Super Show - Av. Ayrton Senna, 566 - Neópolis, Natal - RN, 59088-740 – Zona Sul",
+                    "preco": 15.99
+                },
+                {
+                    "mercado": "Mineirão – R. Lúcia Viveiros, 4511 - Neópolis, Natal - RN, 59086-005 – Zona Sul",
+                    "preco": 15.99
+                },
+                {
+                    "mercado": "Mar Vermelho - Av. Dão Silveira, 4000 - Candelária, Natal - RN, 59066-180 – Zona Sul",
+                    "preco": 15.99
+                },
+                {
+                    "mercado": "Assai – Av. Dão Silveira, s/n - Pitimbu, Natal - RN, 59000-000 – Zona Sul",
+                    "preco": 16.48
+                },
+                {
+                    "mercado": "Atacadão - Av. Dão Silveira, 7796 - Pitimbu, Natal - RN, 59066-180 – Zona Sul",
+                    "preco": 16.48
+                },
+                {
+                    "mercado": "Rede Mais - Av. Coronel Estevam, 1258 - Alecrim, Natal - RN, 59030-000 – Zona Leste",
+                    "preco": 16.99
+                },
+                {
+                    "mercado": "Nordestão - Av. Dr. João Medeiros Filho, 1835 - Potengi, Natal - RN, 59108-200 – Zona Norte",
+                    "preco": 16.99
+                },
+                {
+                    "mercado": "Carrefour - Av. Dr. João Medeiros Filho, 2005 - Potengi, Natal - RN, 59108-200 – Zona Norte",
+                    "preco": 16.99
+                },
+                {
+                    "mercado": "Bom Dia - R. Pres. Mascarenhas, 673 - Alecrim, Natal - RN, 59032-540 – Zona Leste",
+                    "preco": 17.98
+                },
+                {
+                    "mercado": "Mercado da Casa – R. Vig. Bartolomeu, 587 - Cidade Alta, Natal - RN, 59025-100 – Zona Leste",
+                    "preco": 17.99
+                },
+                {
+                    "mercado": "Super Show - R. Dr. Mário Negócio, 1875 - Quintas, Natal - RN, 59040-000 – Zona Oeste",
+                    "preco": 17.99
+                },
+                {
+                    "mercado": "Super Show - R. Vale do Sol, 304 - Pajuçara, Natal - RN, 59122-500 – Zona Norte",
+                    "preco": 17.99
+                },
+                {
+                    "mercado": "Bom Dia - Avenida Senhor do Bonfim, Conjunto Santa Catarina, 5229 - Potengi, Natal - RN, 59120-000 – Zona Norte",
+                    "preco": 17.99
+                }
+            ]
+        },
+        {
+            "id": "leite_l",
+            "nome": "Leite (L)",
+            "imagem": "🥛",
+            "ofertas": [
+                {
+                    "mercado": "Carrefour – Km 02 - BR-101, s/n - Lagoa Nova, Natal - RN, 59063-904 - – Zona Sul",
+                    "preco": 4.24
+                },
+                {
+                    "mercado": "Super Show - Av. Interventor Mário Câmara, 2386 - Nossa Sra. de Nazaré, Natal - RN, 59062-600 – Zona Oeste",
+                    "preco": 4.49
+                },
+                {
+                    "mercado": "Atacadão - Av. Dão Silveira, 7796 - Pitimbu, Natal - RN, 59066-180 – Zona Sul",
+                    "preco": 4.69
+                },
+                {
+                    "mercado": "Atacadão – Av. Prudente de Morais, 3720 - Lagoa Nova, Natal - RN, 59056-900 – Zona Sul",
+                    "preco": 4.69
+                },
+                {
+                    "mercado": "Mar Vermelho - Av. Dão Silveira, 4000 - Candelária, Natal - RN, 59066-180 – Zona Sul",
+                    "preco": 5.39
+                },
+                {
+                    "mercado": "Mineirão – R. Lúcia Viveiros, 4511 - Neópolis, Natal - RN, 59086-005 – Zona Sul",
+                    "preco": 5.48
+                },
+                {
+                    "mercado": "Super Fácil - Av. Capitão - Mor Gouveia, 1361 - Nossa Sra. de Nazaré, Natal - RN, 59060-400 – Zona Oeste",
+                    "preco": 5.49
+                },
+                {
+                    "mercado": "Assai – Av. Dão Silveira, s/n - Pitimbu, Natal - RN, 59000-000 – Zona Sul",
+                    "preco": 5.65
+                },
+                {
+                    "mercado": "Assai – Av. Engenheiro Roberto Freire, 1686 - Capim Macio, Natal - RN, 59078-600 – Zona Sul",
+                    "preco": 5.65
+                },
+                {
+                    "mercado": "Miramar - Av. São Miguel dos Caribes, 4505 – Conjunto Pirangi II – Neópolis, Natal - RN, 59088-500 – Zona Sul",
+                    "preco": 5.69
+                },
+                {
+                    "mercado": "Pão de Açúcar - Av. Nevaldo Rocha, 3775 - Tirol, Natal - RN, 59015-450 – Zona Leste",
+                    "preco": 5.79
+                },
+                {
+                    "mercado": "Rede Mais - Av. Coronel Estevam, 2458 - Dix-Sept Rosado, Natal - RN, 59062-050 – Zona Oeste",
+                    "preco": 5.79
+                },
+                {
+                    "mercado": "Atacadão – Av. Dr. João Medeiros Filho, 778 - Potengi, Natal - RN, 59104-095 – Zona Norte",
+                    "preco": 5.79
+                },
+                {
+                    "mercado": "Super Show - Av. Ayrton Senna, 566 - Neópolis, Natal - RN, 59088-740 – Zona Sul",
+                    "preco": 5.89
+                },
+                {
+                    "mercado": "Nordestão – Rua Trairi, 342 - Petrópolis, Natal - RN, 59020-15 – Zona Leste",
+                    "preco": 5.99
+                },
+                {
+                    "mercado": "Rede Mais - Av. Coronel Estevam, 1258 - Alecrim, Natal - RN, 59030-000 – Zona Leste",
+                    "preco": 5.99
+                },
+                {
+                    "mercado": "Super Show - R. Dr. Mário Negócio, 1875 - Quintas, Natal - RN, 59040-000 – Zona Oeste",
+                    "preco": 5.99
+                },
+                {
+                    "mercado": "Bom Dia - Avenida Senhor do Bonfim, Conjunto Santa Catarina, 5229 - Potengi, Natal - RN, 59120-000 – Zona Norte",
+                    "preco": 5.99
+                },
+                {
+                    "mercado": "Nordestão - Av. Engenheiro Roberto Freire, 2050 - Capim Macio, Natal - RN, 59082-400 – Zona Sul",
+                    "preco": 5.99
+                },
+                {
+                    "mercado": "Favorito – Av. Engenheiro Roberto Freire, 1460 - Capim Macio, Natal - RN, 59082-055 - – Zona Sul",
+                    "preco": 5.99
+                },
+                {
+                    "mercado": "Favorito – Av. Ayrton Senna, 3215 - Neópolis, Natal - RN, 59086-100 – Zona Sul",
+                    "preco": 5.99
+                },
+                {
+                    "mercado": "Mercado da Casa – R. Vig. Bartolomeu, 587 - Cidade Alta, Natal - RN, 59025-100 – Zona Leste",
+                    "preco": 6.49
+                },
+                {
+                    "mercado": "Rede Mais - R. Djalma Maranhão, 301 - Nova Descoberta, Natal - RN, 59075-290 – Zona Sul",
+                    "preco": 6.79
+                }
+            ]
+        },
+        {
+            "id": "óleo_de_soja_900ml",
+            "nome": "Óleo de Soja (900ml)",
+            "imagem": "🛢️",
+            "ofertas": [
+                {
+                    "mercado": "Super Show - Av. Ayrton Senna, 566 - Neópolis, Natal - RN, 59088-740 – Zona Sul",
+                    "preco": 6.98
+                },
+                {
+                    "mercado": "Mineirão – R. Lúcia Viveiros, 4511 - Neópolis, Natal - RN, 59086-005 – Zona Sul",
+                    "preco": 6.98
+                },
+                {
+                    "mercado": "Atacadão - Av. Dão Silveira, 7796 - Pitimbu, Natal - RN, 59066-180 – Zona Sul",
+                    "preco": 7.49
+                },
+                {
+                    "mercado": "Atacadão – Av. Prudente de Morais, 3720 - Lagoa Nova, Natal - RN, 59056-900 – Zona Sul",
+                    "preco": 7.49
+                },
+                {
+                    "mercado": "Favorito – Av. Engenheiro Roberto Freire, 1460 - Capim Macio, Natal - RN, 59082-055 - – Zona Sul",
+                    "preco": 7.79
+                },
+                {
+                    "mercado": "Miramar - Av. São Miguel dos Caribes, 4505 – Conjunto Pirangi II – Neópolis, Natal - RN, 59088-500 – Zona Sul",
+                    "preco": 7.99
+                },
+                {
+                    "mercado": "Assai – Av. Engenheiro Roberto Freire, 1686 - Capim Macio, Natal - RN, 59078-600 – Zona Sul",
+                    "preco": 7.99
+                },
+                {
+                    "mercado": "Mar Vermelho - Av. Dão Silveira, 4000 - Candelária, Natal - RN, 59066-180 – Zona Sul",
+                    "preco": 8.49
+                },
+                {
+                    "mercado": "Favorito – Av. Ayrton Senna, 3215 - Neópolis, Natal - RN, 59086-100 – Zona Sul",
+                    "preco": 8.98
+                },
+                {
+                    "mercado": "Nordestão – Rua Trairi, 342 - Petrópolis, Natal - RN, 59020-15 – Zona Leste",
+                    "preco": 8.99
+                },
+                {
+                    "mercado": "Pão de Açúcar - Av. Nevaldo Rocha, 3775 - Tirol, Natal - RN, 59015-450 – Zona Leste",
+                    "preco": 8.99
+                },
+                {
+                    "mercado": "Carrefour – Km 02 - BR-101, s/n - Lagoa Nova, Natal - RN, 59063-904 - – Zona Sul",
+                    "preco": 8.99
+                },
+                {
+                    "mercado": "Nordestão - Av. Engenheiro Roberto Freire, 2050 - Capim Macio, Natal - RN, 59082-400 – Zona Sul",
+                    "preco": 8.99
+                },
+                {
+                    "mercado": "Rede Mais - Av. Coronel Estevam, 2458 - Dix-Sept Rosado, Natal - RN, 59062-050 – Zona Oeste",
+                    "preco": 9.79
+                },
+                {
+                    "mercado": "Nordestão - Av. Dr. João Medeiros Filho, 1835 - Potengi, Natal - RN, 59108-200 – Zona Norte",
+                    "preco": 9.89
+                },
+                {
+                    "mercado": "Rede Mais - Av. Coronel Estevam, 1258 - Alecrim, Natal - RN, 59030-000 – Zona Leste",
+                    "preco": 9.98
+                },
+                {
+                    "mercado": "Bom Dia - R. Pres. Mascarenhas, 673 - Alecrim, Natal - RN, 59032-540 – Zona Leste",
+                    "preco": 9.98
+                },
+                {
+                    "mercado": "Bom Dia - Avenida Senhor do Bonfim, Conjunto Santa Catarina, 5229 - Potengi, Natal - RN, 59120-000 – Zona Norte",
+                    "preco": 9.98
+                },
+                {
+                    "mercado": "Mercado da Casa – R. Vig. Bartolomeu, 587 - Cidade Alta, Natal - RN, 59025-100 – Zona Leste",
+                    "preco": 9.99
+                },
+                {
+                    "mercado": "Rede Mais - R. Djalma Maranhão, 301 - Nova Descoberta, Natal - RN, 59075-290 – Zona Sul",
+                    "preco": 10.9
+                },
+                {
+                    "mercado": "Super Show - R. Dr. Mário Negócio, 1875 - Quintas, Natal - RN, 59040-000 – Zona Oeste",
+                    "preco": 10.98
+                },
+                {
+                    "mercado": "Super Fácil - Av. Capitão - Mor Gouveia, 1361 - Nossa Sra. de Nazaré, Natal - RN, 59060-400 – Zona Oeste",
+                    "preco": 11.99
+                },
+                {
+                    "mercado": "Super Show - Av. Interventor Mário Câmara, 2386 - Nossa Sra. de Nazaré, Natal - RN, 59062-600 – Zona Oeste",
+                    "preco": 12.99
+                }
+            ]
+        },
+        {
+            "id": "carne_coxão_mole_kg",
+            "nome": "Carne (Coxão Mole) (kg)",
+            "imagem": "🥩",
+            "ofertas": [
+                {
+                    "mercado": "Nordestão - Av. Dr. João Medeiros Filho, 1835 - Potengi, Natal - RN, 59108-200 – Zona Norte",
+                    "preco": 39.89
+                },
+                {
+                    "mercado": "Mineirão – R. Lúcia Viveiros, 4511 - Neópolis, Natal - RN, 59086-005 – Zona Sul",
+                    "preco": 39.9
+                },
+                {
+                    "mercado": "Mar Vermelho - Av. Dão Silveira, 4000 - Candelária, Natal - RN, 59066-180 – Zona Sul",
+                    "preco": 39.98
+                },
+                {
+                    "mercado": "Miramar - Av. São Miguel dos Caribes, 4505 – Conjunto Pirangi II – Neópolis, Natal - RN, 59088-500 – Zona Sul",
+                    "preco": 39.99
+                },
+                {
+                    "mercado": "Atacadão - Av. Dão Silveira, 7796 - Pitimbu, Natal - RN, 59066-180 – Zona Sul",
+                    "preco": 41.9
+                },
+                {
+                    "mercado": "Pão de Açúcar - Av. Nevaldo Rocha, 3775 - Tirol, Natal - RN, 59015-450 – Zona Leste",
+                    "preco": 41.99
+                },
+                {
+                    "mercado": "Rede Mais - Av. Coronel Estevam, 1258 - Alecrim, Natal - RN, 59030-000 – Zona Leste",
+                    "preco": 44.9
+                },
+                {
+                    "mercado": "Bom Dia - Avenida Senhor do Bonfim, Conjunto Santa Catarina, 5229 - Potengi, Natal - RN, 59120-000 – Zona Norte",
+                    "preco": 46.89
+                },
+                {
+                    "mercado": "Bom Dia - R. Pres. Mascarenhas, 673 - Alecrim, Natal - RN, 59032-540 – Zona Leste",
+                    "preco": 46.98
+                },
+                {
+                    "mercado": "Rede Mais - Av. Coronel Estevam, 2458 - Dix-Sept Rosado, Natal - RN, 59062-050 – Zona Oeste",
+                    "preco": 46.98
+                },
+                {
+                    "mercado": "Assai – Av. Dão Silveira, s/n - Pitimbu, Natal - RN, 59000-000 – Zona Sul",
+                    "preco": 47.9
+                },
+                {
+                    "mercado": "Favorito – Av. Ayrton Senna, 3215 - Neópolis, Natal - RN, 59086-100 – Zona Sul",
+                    "preco": 48.9
+                },
+                {
+                    "mercado": "Super Show - R. Vale do Sol, 304 - Pajuçara, Natal - RN, 59122-500 – Zona Norte",
+                    "preco": 48.99
+                },
+                {
+                    "mercado": "Carrefour - Av. Dr. João Medeiros Filho, 2005 - Potengi, Natal - RN, 59108-200 – Zona Norte",
+                    "preco": 49.89
+                },
+                {
+                    "mercado": "Mercado da Casa – R. Vig. Bartolomeu, 587 - Cidade Alta, Natal - RN, 59025-100 – Zona Leste",
+                    "preco": 49.9
+                },
+                {
+                    "mercado": "Atacadão – Av. Dr. João Medeiros Filho, 778 - Potengi, Natal - RN, 59104-095 – Zona Norte",
+                    "preco": 49.9
+                },
+                {
+                    "mercado": "Super Show - Av. Interventor Mário Câmara, 2386 - Nossa Sra. de Nazaré, Natal - RN, 59062-600 – Zona Oeste",
+                    "preco": 49.98
+                },
+                {
+                    "mercado": "Super Show - Av. Ayrton Senna, 566 - Neópolis, Natal - RN, 59088-740 – Zona Sul",
+                    "preco": 51.99
+                },
+                {
+                    "mercado": "Super Show - R. Dr. Mário Negócio, 1875 - Quintas, Natal - RN, 59040-000 – Zona Oeste",
+                    "preco": 52.9
+                },
+                {
+                    "mercado": "Favorito – Av. Engenheiro Roberto Freire, 1460 - Capim Macio, Natal - RN, 59082-055 - – Zona Sul",
+                    "preco": 54.89
+                },
+                {
+                    "mercado": "Rede Mais - R. Djalma Maranhão, 301 - Nova Descoberta, Natal - RN, 59075-290 – Zona Sul",
+                    "preco": 55.9
+                },
+                {
+                    "mercado": "Carrefour – Km 02 - BR-101, s/n - Lagoa Nova, Natal - RN, 59063-904 - – Zona Sul",
+                    "preco": 56.99
+                },
+                {
+                    "mercado": "Atacadão – Av. Prudente de Morais, 3720 - Lagoa Nova, Natal - RN, 59056-900 – Zona Sul",
+                    "preco": 57.9
+                },
+                {
+                    "mercado": "Nordestão – Rua Trairi, 342 - Petrópolis, Natal - RN, 59020-15 – Zona Leste",
+                    "preco": 59.9
+                },
+                {
+                    "mercado": "Super Fácil - Av. Capitão - Mor Gouveia, 1361 - Nossa Sra. de Nazaré, Natal - RN, 59060-400 – Zona Oeste",
+                    "preco": 59.9
+                },
+                {
+                    "mercado": "Nordestão - Av. Engenheiro Roberto Freire, 2050 - Capim Macio, Natal - RN, 59082-400 – Zona Sul",
+                    "preco": 59.9
+                },
+                {
+                    "mercado": "Assai – Av. Engenheiro Roberto Freire, 1686 - Capim Macio, Natal - RN, 59078-600 – Zona Sul",
+                    "preco": 59.9
+                }
+            ]
+        },
+        {
+            "id": "manteiga",
+            "nome": "Manteiga",
+            "imagem": "🧈",
+            "ofertas": [
+                {
+                    "mercado": "Atacadão – Av. Dr. João Medeiros Filho, 778 - Potengi, Natal - RN, 59104-095 – Zona Norte",
+                    "preco": 12.9
+                },
+                {
+                    "mercado": "Carrefour – Km 02 - BR-101, s/n - Lagoa Nova, Natal - RN, 59063-904 - – Zona Sul",
+                    "preco": 12.9
+                },
+                {
+                    "mercado": "Assai – Av. Dão Silveira, s/n - Pitimbu, Natal - RN, 59000-000 – Zona Sul",
+                    "preco": 12.9
+                },
+                {
+                    "mercado": "Atacadão - Av. Dão Silveira, 7796 - Pitimbu, Natal - RN, 59066-180 – Zona Sul",
+                    "preco": 12.9
+                },
+                {
+                    "mercado": "Atacadão – Av. Prudente de Morais, 3720 - Lagoa Nova, Natal - RN, 59056-900 – Zona Sul",
+                    "preco": 12.9
+                },
+                {
+                    "mercado": "Pão de Açúcar - Av. Nevaldo Rocha, 3775 - Tirol, Natal - RN, 59015-450 – Zona Leste",
+                    "preco": 12.99
+                },
+                {
+                    "mercado": "Favorito – Av. Ayrton Senna, 3215 - Neópolis, Natal - RN, 59086-100 – Zona Sul",
+                    "preco": 12.99
+                },
+                {
+                    "mercado": "Super Show - Av. Ayrton Senna, 566 - Neópolis, Natal - RN, 59088-740 – Zona Sul",
+                    "preco": 13.79
+                },
+                {
+                    "mercado": "Assai – Av. Engenheiro Roberto Freire, 1686 - Capim Macio, Natal - RN, 59078-600 – Zona Sul",
+                    "preco": 13.8
+                },
+                {
+                    "mercado": "Miramar - Av. São Miguel dos Caribes, 4505 – Conjunto Pirangi II – Neópolis, Natal - RN, 59088-500 – Zona Sul",
+                    "preco": 14.29
+                },
+                {
+                    "mercado": "Rede Mais - Av. Coronel Estevam, 1258 - Alecrim, Natal - RN, 59030-000 – Zona Leste",
+                    "preco": 14.49
+                },
+                {
+                    "mercado": "Bom Dia - R. Pres. Mascarenhas, 673 - Alecrim, Natal - RN, 59032-540 – Zona Leste",
+                    "preco": 14.49
+                },
+                {
+                    "mercado": "Bom Dia - Avenida Senhor do Bonfim, Conjunto Santa Catarina, 5229 - Potengi, Natal - RN, 59120-000 – Zona Norte",
+                    "preco": 14.49
+                },
+                {
+                    "mercado": "Favorito – Av. Engenheiro Roberto Freire, 1460 - Capim Macio, Natal - RN, 59082-055 - – Zona Sul",
+                    "preco": 14.49
+                },
+                {
+                    "mercado": "Mercado da Casa – R. Vig. Bartolomeu, 587 - Cidade Alta, Natal - RN, 59025-100 – Zona Leste",
+                    "preco": 14.69
+                },
+                {
+                    "mercado": "Nordestão - Av. Dr. João Medeiros Filho, 1835 - Potengi, Natal - RN, 59108-200 – Zona Norte",
+                    "preco": 14.99
+                },
+                {
+                    "mercado": "Super Fácil - Av. Capitão - Mor Gouveia, 1361 - Nossa Sra. de Nazaré, Natal - RN, 59060-400 – Zona Oeste",
+                    "preco": 15.39
+                },
+                {
+                    "mercado": "Nordestão – Rua Trairi, 342 - Petrópolis, Natal - RN, 59020-15 – Zona Leste",
+                    "preco": 16.39
+                },
+                {
+                    "mercado": "Nordestão - Av. Engenheiro Roberto Freire, 2050 - Capim Macio, Natal - RN, 59082-400 – Zona Sul",
+                    "preco": 16.39
+                },
+                {
+                    "mercado": "Rede Mais - R. Djalma Maranhão, 301 - Nova Descoberta, Natal - RN, 59075-290 – Zona Sul",
+                    "preco": 16.99
+                }
+            ]
+        },
+        {
+            "id": "tomate_kg",
+            "nome": "Tomate (kg)",
+            "imagem": "🍅",
+            "ofertas": [
+                {
+                    "mercado": "Super Show - R. Dr. Mário Negócio, 1875 - Quintas, Natal - RN, 59040-000 – Zona Oeste",
+                    "preco": 3.28
+                },
+                {
+                    "mercado": "Bom Dia - R. Pres. Mascarenhas, 673 - Alecrim, Natal - RN, 59032-540 – Zona Leste",
+                    "preco": 3.49
+                },
+                {
+                    "mercado": "Bom Dia - Avenida Senhor do Bonfim, Conjunto Santa Catarina, 5229 - Potengi, Natal - RN, 59120-000 – Zona Norte",
+                    "preco": 4.39
+                },
+                {
+                    "mercado": "Rede Mais - Av. Coronel Estevam, 1258 - Alecrim, Natal - RN, 59030-000 – Zona Leste",
+                    "preco": 4.69
+                },
+                {
+                    "mercado": "Carrefour - Av. Dr. João Medeiros Filho, 2005 - Potengi, Natal - RN, 59108-200 – Zona Norte",
+                    "preco": 4.99
+                },
+                {
+                    "mercado": "Super Show - R. Vale do Sol, 304 - Pajuçara, Natal - RN, 59122-500 – Zona Norte",
+                    "preco": 5.69
+                },
+                {
+                    "mercado": "Nordestão - Av. Dr. João Medeiros Filho, 1835 - Potengi, Natal - RN, 59108-200 – Zona Norte",
+                    "preco": 5.98
+                },
+                {
+                    "mercado": "Super Show - Av. Interventor Mário Câmara, 2386 - Nossa Sra. de Nazaré, Natal - RN, 59062-600 – Zona Oeste",
+                    "preco": 6.98
+                },
+                {
+                    "mercado": "Carrefour – Km 02 - BR-101, s/n - Lagoa Nova, Natal - RN, 59063-904 - – Zona Sul",
+                    "preco": 6.99
+                },
+                {
+                    "mercado": "Assai – Av. Engenheiro Roberto Freire, 1686 - Capim Macio, Natal - RN, 59078-600 – Zona Sul",
+                    "preco": 7.89
+                },
+                {
+                    "mercado": "Mercado da Casa – R. Vig. Bartolomeu, 587 - Cidade Alta, Natal - RN, 59025-100 – Zona Leste",
+                    "preco": 7.98
+                },
+                {
+                    "mercado": "Super Fácil - Av. Capitão - Mor Gouveia, 1361 - Nossa Sra. de Nazaré, Natal - RN, 59060-400 – Zona Oeste",
+                    "preco": 7.99
+                },
+                {
+                    "mercado": "Atacadão – Av. Dr. João Medeiros Filho, 778 - Potengi, Natal - RN, 59104-095 – Zona Norte",
+                    "preco": 7.99
+                },
+                {
+                    "mercado": "Miramar - Av. São Miguel dos Caribes, 4505 – Conjunto Pirangi II – Neópolis, Natal - RN, 59088-500 – Zona Sul",
+                    "preco": 7.99
+                },
+                {
+                    "mercado": "Assai – Av. Dão Silveira, s/n - Pitimbu, Natal - RN, 59000-000 – Zona Sul",
+                    "preco": 7.99
+                },
+                {
+                    "mercado": "Atacadão - Av. Dão Silveira, 7796 - Pitimbu, Natal - RN, 59066-180 – Zona Sul",
+                    "preco": 7.99
+                },
+                {
+                    "mercado": "Atacadão – Av. Prudente de Morais, 3720 - Lagoa Nova, Natal - RN, 59056-900 – Zona Sul",
+                    "preco": 7.99
+                },
+                {
+                    "mercado": "Mar Vermelho - Av. Dão Silveira, 4000 - Candelária, Natal - RN, 59066-180 – Zona Sul",
+                    "preco": 7.99
+                },
+                {
+                    "mercado": "Super Show - Av. Ayrton Senna, 566 - Neópolis, Natal - RN, 59088-740 – Zona Sul",
+                    "preco": 8.59
+                },
+                {
+                    "mercado": "Nordestão – Rua Trairi, 342 - Petrópolis, Natal - RN, 59020-15 – Zona Leste",
+                    "preco": 8.79
+                },
+                {
+                    "mercado": "Nordestão - Av. Engenheiro Roberto Freire, 2050 - Capim Macio, Natal - RN, 59082-400 – Zona Sul",
+                    "preco": 8.79
+                },
+                {
+                    "mercado": "Rede Mais - Av. Coronel Estevam, 2458 - Dix-Sept Rosado, Natal - RN, 59062-050 – Zona Oeste",
+                    "preco": 9.98
+                },
+                {
+                    "mercado": "Pão de Açúcar - Av. Nevaldo Rocha, 3775 - Tirol, Natal - RN, 59015-450 – Zona Leste",
+                    "preco": 9.99
+                },
+                {
+                    "mercado": "Favorito – Av. Engenheiro Roberto Freire, 1460 - Capim Macio, Natal - RN, 59082-055 - – Zona Sul",
+                    "preco": 9.99
+                },
+                {
+                    "mercado": "Favorito – Av. Ayrton Senna, 3215 - Neópolis, Natal - RN, 59086-100 – Zona Sul",
+                    "preco": 9.99
+                },
+                {
+                    "mercado": "Rede Mais - R. Djalma Maranhão, 301 - Nova Descoberta, Natal - RN, 59075-290 – Zona Sul",
+                    "preco": 9.99
+                },
+                {
+                    "mercado": "Mineirão – R. Lúcia Viveiros, 4511 - Neópolis, Natal - RN, 59086-005 – Zona Sul",
+                    "preco": 11.28
+                }
+            ]
+        },
+        {
+            "id": "banana_kg",
+            "nome": "Banana (kg)",
+            "imagem": "🍌",
+            "ofertas": [
+                {
+                    "mercado": "Super Show - R. Dr. Mário Negócio, 1875 - Quintas, Natal - RN, 59040-000 – Zona Oeste",
+                    "preco": 2.88
+                },
+                {
+                    "mercado": "Rede Mais - Av. Coronel Estevam, 1258 - Alecrim, Natal - RN, 59030-000 – Zona Leste",
+                    "preco": 2.99
+                },
+                {
+                    "mercado": "Atacadão - Av. Dão Silveira, 7796 - Pitimbu, Natal - RN, 59066-180 – Zona Sul",
+                    "preco": 3.29
+                },
+                {
+                    "mercado": "Mar Vermelho - Av. Dão Silveira, 4000 - Candelária, Natal - RN, 59066-180 – Zona Sul",
+                    "preco": 3.59
+                },
+                {
+                    "mercado": "Bom Dia - R. Pres. Mascarenhas, 673 - Alecrim, Natal - RN, 59032-540 – Zona Leste",
+                    "preco": 3.79
+                },
+                {
+                    "mercado": "Miramar - Av. São Miguel dos Caribes, 4505 – Conjunto Pirangi II – Neópolis, Natal - RN, 59088-500 – Zona Sul",
+                    "preco": 3.79
+                },
+                {
+                    "mercado": "Assai – Av. Dão Silveira, s/n - Pitimbu, Natal - RN, 59000-000 – Zona Sul",
+                    "preco": 3.79
+                },
+                {
+                    "mercado": "Assai – Av. Engenheiro Roberto Freire, 1686 - Capim Macio, Natal - RN, 59078-600 – Zona Sul",
+                    "preco": 3.79
+                },
+                {
+                    "mercado": "Atacadão – Av. Dr. João Medeiros Filho, 778 - Potengi, Natal - RN, 59104-095 – Zona Norte",
+                    "preco": 3.99
+                },
+                {
+                    "mercado": "Bom Dia - Avenida Senhor do Bonfim, Conjunto Santa Catarina, 5229 - Potengi, Natal - RN, 59120-000 – Zona Norte",
+                    "preco": 4.19
+                },
+                {
+                    "mercado": "Rede Mais - Av. Coronel Estevam, 2458 - Dix-Sept Rosado, Natal - RN, 59062-050 – Zona Oeste",
+                    "preco": 4.29
+                },
+                {
+                    "mercado": "Mercado da Casa – R. Vig. Bartolomeu, 587 - Cidade Alta, Natal - RN, 59025-100 – Zona Leste",
+                    "preco": 4.64
+                },
+                {
+                    "mercado": "Favorito – Av. Engenheiro Roberto Freire, 1460 - Capim Macio, Natal - RN, 59082-055 - – Zona Sul",
+                    "preco": 4.89
+                },
+                {
+                    "mercado": "Favorito – Av. Ayrton Senna, 3215 - Neópolis, Natal - RN, 59086-100 – Zona Sul",
+                    "preco": 4.89
+                },
+                {
+                    "mercado": "Super Show - Av. Ayrton Senna, 566 - Neópolis, Natal - RN, 59088-740 – Zona Sul",
+                    "preco": 4.98
+                },
+                {
+                    "mercado": "Mineirão – R. Lúcia Viveiros, 4511 - Neópolis, Natal - RN, 59086-005 – Zona Sul",
+                    "preco": 4.98
+                },
+                {
+                    "mercado": "Super Show - R. Vale do Sol, 304 - Pajuçara, Natal - RN, 59122-500 – Zona Norte",
+                    "preco": 4.99
+                },
+                {
+                    "mercado": "Atacadão – Av. Prudente de Morais, 3720 - Lagoa Nova, Natal - RN, 59056-900 – Zona Sul",
+                    "preco": 5.29
+                },
+                {
+                    "mercado": "Super Fácil - Av. Capitão - Mor Gouveia, 1361 - Nossa Sra. de Nazaré, Natal - RN, 59060-400 – Zona Oeste",
+                    "preco": 5.48
+                },
+                {
+                    "mercado": "Super Show - Av. Interventor Mário Câmara, 2386 - Nossa Sra. de Nazaré, Natal - RN, 59062-600 – Zona Oeste",
+                    "preco": 5.49
+                },
+                {
+                    "mercado": "Carrefour - Av. Dr. João Medeiros Filho, 2005 - Potengi, Natal - RN, 59108-200 – Zona Norte",
+                    "preco": 5.49
+                },
+                {
+                    "mercado": "Carrefour – Km 02 - BR-101, s/n - Lagoa Nova, Natal - RN, 59063-904 - – Zona Sul",
+                    "preco": 5.49
+                },
+                {
+                    "mercado": "Rede Mais - R. Djalma Maranhão, 301 - Nova Descoberta, Natal - RN, 59075-290 – Zona Sul",
+                    "preco": 5.49
+                },
+                {
+                    "mercado": "Nordestão - Av. Dr. João Medeiros Filho, 1835 - Potengi, Natal - RN, 59108-200 – Zona Norte",
+                    "preco": 5.79
+                },
+                {
+                    "mercado": "Pão de Açúcar - Av. Nevaldo Rocha, 3775 - Tirol, Natal - RN, 59015-450 – Zona Leste",
+                    "preco": 5.99
+                },
+                {
+                    "mercado": "Nordestão – Rua Trairi, 342 - Petrópolis, Natal - RN, 59020-15 – Zona Leste",
+                    "preco": 6.49
+                },
+                {
+                    "mercado": "Nordestão - Av. Engenheiro Roberto Freire, 2050 - Capim Macio, Natal - RN, 59082-400 – Zona Sul",
+                    "preco": 6.99
+                }
+            ]
+        }
+    ],
+    "joaopessoa": [
+        {
+            "id": "açúcar_kg",
+            "nome": "Açúcar (kg)",
+            "imagem": "🧂",
+            "ofertas": [
+                {
+                    "mercado": "Novo Atacarejo (Cabedelo)",
+                    "preco": 2.78
+                },
+                {
+                    "mercado": "Atacadão (Ernesto Geisel)",
+                    "preco": 3.29
+                },
+                {
+                    "mercado": "SuperFácil Atacado (Ernani Sátiro)",
+                    "preco": 3.29
+                },
+                {
+                    "mercado": "Assaí Atacadista (Ernesto Geisel)",
+                    "preco": 3.45
+                }
+            ]
+        },
+        {
+            "id": "arroz_kg",
+            "nome": "Arroz (kg)",
+            "imagem": "🍚",
+            "ofertas": [
+                {
+                    "mercado": "Assaí Atacadista (Ernesto Geisel)",
+                    "preco": 4.79
+                },
+                {
+                    "mercado": "Novo Atacarejo (Cabedelo)",
+                    "preco": 5.38
+                }
+            ]
+        },
+        {
+            "id": "banana_kg",
+            "nome": "Banana (kg)",
+            "imagem": "🍌",
+            "ofertas": [
+                {
+                    "mercado": "Mix Mateus (Cabedelo)",
+                    "preco": 5.98
+                },
+                {
+                    "mercado": "Assaí Atacadista (Ernesto Geisel)",
+                    "preco": 5.99
+                },
+                {
+                    "mercado": "Atacadão (Ernesto Geisel)",
+                    "preco": 5.99
+                },
+                {
+                    "mercado": "SuperFácil Atacado (Ernani Sátiro)",
+                    "preco": 6.49
+                }
+            ]
+        },
+        {
+            "id": "café_250g",
+            "nome": "Café (250g)",
+            "imagem": "☕",
+            "ofertas": [
+                {
+                    "mercado": "SuperFácil Atacado (Ernani Sátiro)",
+                    "preco": 13.89
+                },
+                {
+                    "mercado": "Mix Mateus (Cabedelo)",
+                    "preco": 13.98
+                },
+                {
+                    "mercado": "Novo Atacarejo (Cabedelo)",
+                    "preco": 13.98
+                },
+                {
+                    "mercado": "Assaí Atacadista (Ernesto Geisel)",
+                    "preco": 14.49
+                },
+                {
+                    "mercado": "Atacadão (Ernesto Geisel)",
+                    "preco": 15.68
+                }
+            ]
+        },
+        {
+            "id": "carne_coxão_mole_kg",
+            "nome": "Carne (Coxão Mole) (kg)",
+            "imagem": "🥩",
+            "ofertas": [
+                {
+                    "mercado": "Novo Atacarejo (Cabedelo)",
+                    "preco": 71.7
+                },
+                {
+                    "mercado": "Mix Mateus (Cabedelo)",
+                    "preco": 73.2
+                },
+                {
+                    "mercado": "Assaí Atacadista (Ernesto Geisel)",
+                    "preco": 74.85
+                },
+                {
+                    "mercado": "Atacadão (Ernesto Geisel)",
+                    "preco": 74.85
+                },
+                {
+                    "mercado": "SuperFácil Atacado (Ernani Sátiro)",
+                    "preco": 74.99
+                }
+            ]
+        },
+        {
+            "id": "carne_coxão_duro_kg",
+            "nome": "Carne (Coxão Duro) (kg)",
+            "imagem": "🥩",
+            "ofertas": [
+                {
+                    "mercado": "Assaí Atacadista (Ernesto Geisel)",
+                    "preco": 67.35
+                },
+                {
+                    "mercado": "Mix Mateus (Cabedelo)",
+                    "preco": 68.7
+                },
+                {
+                    "mercado": "Atacadão (Ernesto Geisel)",
+                    "preco": 83.85
+                }
+            ]
+        },
+        {
+            "id": "feijão_kg",
+            "nome": "Feijão (kg)",
+            "imagem": "🫘",
+            "ofertas": [
+                {
+                    "mercado": "Atacadão (Ernesto Geisel)",
+                    "preco": 7.99
+                },
+                {
+                    "mercado": "SuperFácil Atacado (Ernani Sátiro)",
+                    "preco": 8.19
+                },
+                {
+                    "mercado": "Novo Atacarejo (Cabedelo)",
+                    "preco": 8.58
+                },
+                {
+                    "mercado": "Assaí Atacadista (Ernesto Geisel)",
+                    "preco": 8.59
+                }
+            ]
+        },
+        {
+            "id": "leite_l",
+            "nome": "Leite (L)",
+            "imagem": "🥛",
+            "ofertas": [
+                {
+                    "mercado": "Novo Atacarejo (Cabedelo)",
+                    "preco": 4.68
+                },
+                {
+                    "mercado": "Mix Mateus (Cabedelo)",
+                    "preco": 4.78
+                },
+                {
+                    "mercado": "Atacadão (Ernesto Geisel)",
+                    "preco": 4.79
+                },
+                {
+                    "mercado": "Assaí Atacadista (Ernesto Geisel)",
+                    "preco": 5.45
+                }
+            ]
+        },
+        {
+            "id": "manteiga",
+            "nome": "Manteiga",
+            "imagem": "🧈",
+            "ofertas": [
+                {
+                    "mercado": "Assaí Atacadista (Ernesto Geisel)",
+                    "preco": 22.9
+                },
+                {
+                    "mercado": "SuperFácil Atacado (Ernani Sátiro)",
+                    "preco": 25.99
+                }
+            ]
+        },
+        {
+            "id": "pão_francês_kg",
+            "nome": "Pão Francês (kg)",
+            "imagem": "🥖",
+            "ofertas": [
+                {
+                    "mercado": "Novo Atacarejo (Cabedelo)",
+                    "preco": 10.98
+                },
+                {
+                    "mercado": "Mix Mateus (Cabedelo)",
+                    "preco": 12.98
+                },
+                {
+                    "mercado": "SuperFácil Atacado (Ernani Sátiro)",
+                    "preco": 14.99
+                },
+                {
+                    "mercado": "Assaí Atacadista (Ernesto Geisel)",
+                    "preco": 16.9
+                },
+                {
+                    "mercado": "Atacadão (Ernesto Geisel)",
+                    "preco": 16.9
+                }
+            ]
+        },
+        {
+            "id": "tomate_kg",
+            "nome": "Tomate (kg)",
+            "imagem": "🍅",
+            "ofertas": [
+                {
+                    "mercado": "Mix Mateus (Cabedelo)",
+                    "preco": 7.98
+                },
+                {
+                    "mercado": "Novo Atacarejo (Cabedelo)",
+                    "preco": 7.98
+                },
+                {
+                    "mercado": "Assaí Atacadista (Ernesto Geisel)",
+                    "preco": 7.99
+                },
+                {
+                    "mercado": "Atacadão (Ernesto Geisel)",
+                    "preco": 7.99
+                },
+                {
+                    "mercado": "SuperFácil Atacado (Ernani Sátiro)",
+                    "preco": 7.99
+                }
+            ]
+        },
+        {
+            "id": "carne_chambaril_kg",
+            "nome": "Carne (Chambaril) (kg)",
+            "imagem": "🍖",
+            "ofertas": [
+                {
+                    "mercado": "SuperFácil Atacado (Ernani Sátiro)",
+                    "preco": 43.49
+                },
+                {
+                    "mercado": "Atacadão (Ernesto Geisel)",
+                    "preco": 44.85
+                },
+                {
+                    "mercado": "Novo Atacarejo (Cabedelo)",
+                    "preco": 44.93
+                }
+            ]
+        },
+        {
+            "id": "óleo_de_soja_900ml",
+            "nome": "Óleo de Soja (900ml)",
+            "imagem": "🛢️",
+            "ofertas": [
+                {
+                    "mercado": "Atacadão (Ernesto Geisel)",
+                    "preco": 7.69
+                },
+                {
+                    "mercado": "SuperFácil Atacado (Ernani Sátiro)",
+                    "preco": 8.49
+                },
+                {
+                    "mercado": "Mix Mateus (Cabedelo)",
+                    "preco": 10.35
+                }
+            ]
+        }
+    ]
+}
